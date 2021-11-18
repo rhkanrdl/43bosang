@@ -2404,6 +2404,649 @@ body.sub header h1 a {
   }
 }
 
+body h4.sTitle {
+  margin: 0 0 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  body h4.sTitle {
+    font-size: 20px;
+    margin: 0 0 30px;
+  }
+}
+
+body h4.sTitle u {
+  color: #5680CC;
+  text-decoration: none;
+}
+
+body h4.sTitle div.check {
+  float: right;
+  padding-top: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #555555;
+}
+
+body h4.sTitle div.check input {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  vertical-align: bottom;
+}
+
+body dl.form {
+  position: relative;
+  border: 1px solid #bbb;
+  border-bottom: none;
+  margin-bottom: 40px;
+  font-size: 0;
+}
+
+body dl.form dt {
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  vertical-align: top;
+  width: 72px;
+  padding: 20px 0 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form dt {
+    font-size: 16px;
+    width: 110px;
+  }
+}
+
+body dl.form dt span {
+  display: block;
+  margin-top: -10px;
+}
+
+body dl.form dd {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  width: calc(100% - 72px);
+  padding: 10px 10px 0 10px;
+  margin: 0;
+  border-bottom: 1px solid #bbb;
+}
+
+@media (min-width: 1200px) {
+  body dl.form dd {
+    padding: 10px 10px 0 10px;
+    width: calc(100% - 110px);
+  }
+  body dl.form dd.half {
+    width: calc(50% - 110px);
+    padding: 10px 10px 0;
+  }
+}
+
+body dl.form dd::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -72px;
+  top: 0;
+  bottom: -1px;
+  width: 72px;
+  background: #F1F3F8;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+@media (min-width: 1200px) {
+  body dl.form dd::before {
+    width: 110px;
+    left: -111px;
+    border-left: 1px solid #bbb;
+  }
+}
+
+@media (min-width: 1200px) {
+  body dl.form dd.half::before {
+    left: -111px;
+  }
+}
+
+body dl.form dd p {
+  margin: 0 0 10px;
+}
+
+body dl.form dd p span {
+  display: block;
+  padding: 10px;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form dd p span {
+    font-size: 16px;
+  }
+}
+
+body dl.form dd p select {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  height: 38px;
+  padding: 0 10px;
+  color: #555555;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form dd p select {
+    font-size: 16px;
+  }
+}
+
+body dl.form dd p input {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  height: 38px;
+  padding: 0 10px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form dd p input {
+    font-size: 16px;
+  }
+}
+
+body dl.form dd p input:-moz-read-only {
+  background: #F3F3F3;
+}
+
+body dl.form dd p input:read-only {
+  background: #F3F3F3;
+}
+
+body dl.form dd p button {
+  font-size: 15px;
+  background: #505B6E;
+  color: #fff;
+  border: 1px solid #2E3D58;
+  height: 38px;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+
+body dl.form dd p.address {
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body dl.form dd p.address {
+    width: 320px;
+  }
+}
+
+body dl.form dd p.address button {
+  font-size: 15px;
+  border: 1px solid #CCCCCC;
+  height: 38px;
+  margin-right: 10px;
+  width: 90px;
+}
+
+body dl.form dd p.address input {
+  font-size: 15px;
+  text-align: center;
+  width: calc(100% - 100px);
+}
+
+body dl.form dd p.phone span {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #555555;
+  padding-left: 0;
+}
+
+@media (min-width: 1200px) {
+  body dl.form dd p.phone span {
+    font-size: 16px;
+  }
+}
+
+body dl.form dd p.radio {
+  margin: 10px 10px 20px;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form dd p.radio {
+    font-size: 16px;
+  }
+}
+
+body dl.form dd p.radio input {
+  display: none;
+}
+
+body dl.form dd p.radio label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  margin-right: 20px;
+  color: #555555;
+}
+
+body dl.form dd p.radio label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 22px;
+  height: 22px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body dl.form dd p.radio input:checked + label {
+  color: #222222;
+}
+
+body dl.form dd p.radio input:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg id='그룹_1713' data-name='그룹 1713' transform='translate(-101 -1155)'%3E%3Cg id='타원_24' data-name='타원 24' transform='translate(101 1155)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3Cg id='타원_23' data-name='타원 23' transform='translate(105 1159)' fill='%23505b6e' stroke='%23505b6e' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+body dl.form dd p.file {
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body dl.form dd p.file {
+    width: 420px;
+  }
+}
+
+body dl.form dd p.file button {
+  font-size: 15px;
+  border: 1px solid #CCCCCC;
+  height: 38px;
+  margin-left: 10px;
+  width: 90px;
+}
+
+body dl.form dd p.file input {
+  font-size: 15px;
+  text-align: center;
+  width: calc(100% - 100px);
+}
+
+body dl.form2 {
+  position: relative;
+  border-top: 1px solid #222222;
+  border-bottom: 1px solid #AAAAAA;
+  margin-bottom: 40px;
+  padding: 10px 0;
+  font-size: 0;
+}
+
+body dl.form2 dt {
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  vertical-align: top;
+  width: 82px;
+  padding: 20px 0 0 20px;
+  text-align: left;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2 dt {
+    font-size: 16px;
+    width: 110px;
+  }
+}
+
+body dl.form2 dt span {
+  display: block;
+  margin-top: -10px;
+}
+
+body dl.form2 dd {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  width: calc(100% - 82px);
+  padding: 10px 10px 0 10px;
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2 dd {
+    padding: 10px 10px 0 10px;
+    width: calc(100% - 110px);
+  }
+  body dl.form2 dd.half {
+    width: calc(50% - 110px);
+    padding: 10px 10px 0;
+  }
+  body dl.form2 dd.halfB {
+    width: calc((100% - 220px) / 3);
+    padding: 10px 10px 0;
+  }
+}
+
+body dl.form2 dd.single {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2 dd.single.halfB {
+    width: calc((100% - 220px) / 3);
+  }
+}
+
+body dl.form2 dd p {
+  margin: 0 0 10px;
+}
+
+body dl.form2 dd p span {
+  display: block;
+  padding: 10px;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2 dd p span {
+    font-size: 16px;
+  }
+}
+
+body dl.form2 dd p select {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  height: 42px;
+  padding: 0 10px;
+  color: #555555;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2 dd p select {
+    font-size: 16px;
+  }
+}
+
+body dl.form2 dd p input {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  height: 42px;
+  padding: 0 10px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2 dd p input {
+    font-size: 16px;
+  }
+}
+
+body dl.form2 dd p input:-moz-read-only {
+  background: #F3F3F3;
+}
+
+body dl.form2 dd p input:read-only {
+  background: #F3F3F3;
+}
+
+body dl.form2 dd p button {
+  font-size: 15px;
+  background: #37599A;
+  color: #fff;
+  border: 1px solid #2E3D58;
+  height: 42px;
+  border-radius: 4px;
+  padding: 0 10px;
+  min-width: 110px;
+}
+
+body dl.form2 dd p.address {
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2 dd p.address {
+    width: 320px;
+  }
+}
+
+body dl.form2 dd p.address button {
+  font-size: 15px;
+  border: 1px solid #CCCCCC;
+  height: 38px;
+  margin-right: 10px;
+  width: 90px;
+}
+
+body dl.form2 dd p.address input {
+  font-size: 15px;
+  text-align: center;
+  width: calc(100% - 100px);
+}
+
+body dl.form2 dd p.phone span {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #555555;
+  padding-left: 0;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2 dd p.phone span {
+    font-size: 16px;
+  }
+}
+
+body dl.form2 dd p.radio {
+  margin: 10px 10px 20px;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2 dd p.radio {
+    font-size: 16px;
+  }
+}
+
+body dl.form2 dd p.radio input {
+  display: none;
+}
+
+body dl.form2 dd p.radio label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  margin-right: 20px;
+  color: #555555;
+}
+
+body dl.form2 dd p.radio label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 22px;
+  height: 22px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body dl.form2 dd p.radio input:checked + label {
+  color: #222222;
+}
+
+body dl.form2 dd p.radio input:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg id='그룹_1713' data-name='그룹 1713' transform='translate(-101 -1155)'%3E%3Cg id='타원_24' data-name='타원 24' transform='translate(101 1155)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3Cg id='타원_23' data-name='타원 23' transform='translate(105 1159)' fill='%23505b6e' stroke='%23505b6e' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+body dl.form2 dd p.center {
+  text-align: center;
+}
+
+body dl.form2 dd p.file {
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2 dd p.file {
+    width: 420px;
+  }
+}
+
+body dl.form2 dd p.file button {
+  font-size: 15px;
+  border: 1px solid #CCCCCC;
+  height: 38px;
+  margin-left: 10px;
+  width: 90px;
+}
+
+body dl.form2 dd p.file input {
+  font-size: 15px;
+  text-align: center;
+  width: calc(100% - 100px);
+}
+
+body div.infoBox {
+  border: 1px solid #BBBBBB;
+  background: #FCFCFC;
+  padding: 15px 15px 9px;
+}
+
+@media (min-width: 1200px) {
+  body div.infoBox {
+    padding: 25px 25px 15px;
+  }
+}
+
+body div.infoBox strong {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  color: #222;
+  margin: 0 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div.infoBox strong {
+    font-size: 18px;
+  }
+}
+
+body div.infoBox ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body div.infoBox ul li {
+  position: relative;
+  margin-bottom: 6px;
+  padding: 0 0 0 18px;
+  color: #555555;
+}
+
+@media (min-width: 1200px) {
+  body div.infoBox ul li {
+    font-size: 16px;
+    padding: 0 0 0 20px;
+    margin-bottom: 10px;
+  }
+}
+
+body div.infoBox ul li::before {
+  content: "○";
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+body div.tableOutline {
+  overflow-x: auto;
+  width: 100%;
+}
+
+body div.tableOutline table {
+  width: 100%;
+  min-width: 900px;
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+}
+
+body div.tableOutline table thead tr th {
+  border-right: 1px solid #AAAAAA;
+  border-bottom: 1px solid #AAAAAA;
+  background: #D8D9DB;
+  text-align: center;
+  height: 38px;
+  font-size: 16px;
+  color: #222;
+  font-weight: 400;
+}
+
+body div.tableOutline table tbody tr td {
+  border-right: 1px solid #AAAAAA;
+  border-bottom: 1px solid #AAAAAA;
+  text-align: center;
+  height: 52px;
+  font-size: 16px;
+  padding: 0 15px;
+}
+
+body div.tableOutline table tbody tr td.address {
+  max-width: 200px;
+}
+
+body div.tableOutline table tbody tr td.address span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+body div.tableOutline table tbody tr td input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+body div.tableOutline table tbody tr td button {
+  width: 68px;
+  height: 36px;
+  border-radius: 4px;
+  color: #fff;
+  background: #505B6E;
+  border: 1px solid #2E3D58;
+}
+
+body div.tableOutline table tbody tr:nth-child(even) {
+  background: #F4F6FC;
+}
+
+body p.mobileAttention {
+  font-size: 14px;
+  color: #5680CC;
+}
+
+@media (min-width: 1200px) {
+  body p.mobileAttention {
+    display: none;
+  }
+}
+
 body div#content {
   display: inline-block;
   width: 100%;
@@ -2612,12 +3255,12 @@ body div#content.sub section.sub-header div.container button.back {
 
 body div#content.sub div.sub-contents {
   font-size: 0;
-  padding: 30px 0 40px;
+  padding: 30px 0 0;
 }
 
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents {
-    padding: 40px 0 50px;
+    padding: 40px 0 0;
   }
 }
 
@@ -2660,10 +3303,13 @@ body div#content.sub div.sub-contents aside {
     padding: 0 20px;
     margin-bottom: 20px;
   }
+  body div#content.sub div.sub-contents aside nav ul.subMenu > li ul li a:hover, body div#content.sub div.sub-contents aside nav ul.subMenu > li ul li a.active {
+    color: #5680CC;
+    font-weight: 600;
+  }
   body div#content.sub div.sub-contents aside nav ul.subMenu > li ul li a:hover::before, body div#content.sub div.sub-contents aside nav ul.subMenu > li ul li a.active::before {
     content: ">";
     padding-right: 6px;
-    color: #5680CC;
   }
 }
 
@@ -2679,20 +3325,7 @@ body div#content.sub div.sub-contents div.contentsOutline {
     vertical-align: top;
     width: 916px;
     padding: 0;
-    padding-bottom: 100px;
-  }
-}
-
-body div#content.sub div.sub-contents div.contentsOutline h4.sTitle {
-  margin: 0 0 20px;
-  font-size: 17px;
-  font-weight: 600;
-}
-
-@media (min-width: 1200px) {
-  body div#content.sub div.sub-contents div.contentsOutline h4.sTitle {
-    font-size: 20px;
-    margin: 0 0 30px;
+    padding-bottom: 60px;
   }
 }
 
@@ -2925,6 +3558,1010 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
 
 body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments div.btns a span strong {
   font-weight: 600;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.intro p.text {
+  font-size: 16px;
+  margin: 0 0 20px;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low {
+  list-style: none;
+  margin: 0 0 60px;
+  padding: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low li {
+  position: relative;
+  border: 1px solid #BBBBBB;
+  margin-bottom: 20px;
+  padding: 16px 10px;
+  border-radius: 5px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low li {
+    padding: 34px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low li strong {
+  display: block;
+  font-weight: 600;
+  color: #222;
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low li strong {
+    font-size: 18px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low li span {
+  display: block;
+  padding: 0 0 10px 20px;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.6;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low li span {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low li p {
+  text-align: right;
+  margin: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low li p a {
+  display: inline-block;
+  width: 140px;
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  background: #4D9AB5;
+  border-radius: 4px;
+  border-bottom: 4px solid #538D9F;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low li p a {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dt {
+  position: relative;
+  font-size: 26px;
+  font-weight: 800;
+  border-bottom: 1px solid #AAAAAA;
+  padding: 18px 0;
+  cursor: pointer;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15.001' viewBox='0 0 15 15.001'%3E%3Cpath d='M13.39,5.89H9.11V1.61a1.61,1.61,0,0,0-3.22,0V5.89H1.61a1.61,1.61,0,1,0,0,3.22H5.89v4.28a1.61,1.61,0,0,0,3.22,0V9.111h4.28a1.61,1.61,0,0,0,0-3.22' fill='%235680cc'/%3E%3C/svg%3E%0A") no-repeat right 20px center/15px auto;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.history dl dt {
+    font-size: 28px;
+    padding: 20px 0;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dt::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 4px;
+  width: 170px;
+  background: #5680CC;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dt.on {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='3.22' viewBox='0 0 15 3.22'%3E%3Cpath d='M460.46,45.728H448.68a1.61,1.61,0,0,0,0,3.22h11.78a1.61,1.61,0,1,0,0-3.22' transform='translate(-447.07 -45.728)' fill='%23aaa'/%3E%3C/svg%3E%0A") no-repeat right 20px center/15px auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dd {
+  display: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.history dl dd {
+    padding: 20px 0 50px 190px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dd ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dd ul li {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dd ul li strong {
+  display: inline-block;
+  vertical-align: top;
+  width: 120px;
+  padding-right: 25px;
+  text-align: right;
+  font-size: 15px;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dd ul li strong p {
+  margin: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dd ul li span {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 121px);
+  font-size: 15px;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.history dl dd ul li span {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dd ul li span p {
+  margin: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.history dl dt.on + dd {
+  display: block;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support strong.title {
+  display: block;
+  margin: 0 0 30px;
+  font-size: 0;
+  background: url(../images/img_supportM.svg) no-repeat center/100% auto;
+  width: 100%;
+  padding-top: 46.5%;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.support strong.title {
+    background: url(../images/img_support.svg) no-repeat center/100% auto;
+    padding-top: 17.5%;
+    margin: 0 0 40px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail {
+  list-style: none;
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail {
+    margin: 0 0 60px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li {
+  margin: 0 0 40px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li {
+    margin: 0 0 50px;
+    padding: 0 0 0 112px;
+    min-height: 70px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5 {
+  position: relative;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 0 0 0 70px;
+  margin: 0 0 20px;
+  min-height: 50px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5 {
+    padding: 0;
+    font-size: 18px;
+    min-height: auto;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 54px;
+  height: 54px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5::before {
+    width: 80px;
+    height: 80px;
+    left: -112px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5 small {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 400;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5 small {
+    display: inline-block;
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5 small u {
+  text-decoration: none;
+  color: #FF660D;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type01::before {
+  background: url(../images/iconSupport01.svg) no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type02::before {
+  background: url(../images/iconSupport02.svg) no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type03::before {
+  background: url(../images/iconSupport03.svg) no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type04::before {
+  background: url(../images/iconSupport04.svg) no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type05::before {
+  background: url(../images/iconSupport05.svg) no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type06::before {
+  background: url(../images/iconSupport06.svg) no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type07::before {
+  background: url(../images/iconSupport07.svg) no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type08::before {
+  background: url(../images/iconSupport08.svg) no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li ul li {
+  position: relative;
+  margin: 0 0 10px;
+  padding: 0 0 0 14px;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li ul li {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li ul li::before {
+  content: "-";
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.info {
+  list-style: none;
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.info {
+    margin: 0 0 60px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.info li {
+  position: relative;
+  font-size: 16px;
+  padding: 0 0 20px 34px;
+  line-height: 1.6;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.info li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 22px;
+  height: 22px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='22' height='22' viewBox='0 0 22 22'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect  width='22' height='22' fill='%23bdc0c5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  transform='translate(-0.333 -0.333)'%3E%3Cg transform='translate(0.333 0.333)' clip-path='url(%23clip-path)'%3E%3Cpath d='M11.282,0A11.282,11.282,0,1,0,22.564,11.282,11.282,11.282,0,0,0,11.282,0m-.073,18.517a1.7,1.7,0,1,1,.047-3.393,1.771,1.771,0,0,1,1.673,1.72,1.738,1.738,0,0,1-1.72,1.673M13.116,6.058c-.186,2-.372,3.951-.6,5.95-.139,1.116-.79,1.581-1.859,1.116a1.1,1.1,0,0,1-.558-.79c-.233-1.674-.372-3.347-.511-4.974-.093-.7-.139-1.441-.186-2.138-.093-.836.139-1.115,1.023-1.162H11.3c1.952-.047,2-.047,1.813,2' transform='translate(-0.282 -0.282)' fill='%23bdc0c5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.info li p {
+  margin: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list {
+  border: 1px solid #BBBBBB;
+  border-top-color: #222222;
+  background: #F6F8FB;
+  padding: 10px;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list {
+    padding: 30px 30px 10px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list u {
+  display: block;
+  padding: 50px 0;
+  text-decoration: none;
+  font-size: 18px;
+  color: #8DA5C9;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list u {
+    padding: 60px 10px;
+    font-size: 20px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  text-align: left;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul {
+    margin: 0;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li {
+  position: relative;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border: 1px solid #bbb;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li p.num {
+  margin: 0 0 20px;
+  font-size: 16px;
+  color: #222;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li p.num {
+    font-size: 17px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li p.num strong {
+  font-weight: inherit;
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li p.num strong {
+    display: inline;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  padding: 10px 10px 10px 0;
+  margin: 0 10px 0 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li {
+    font-size: 16px;
+    padding: 10px 12px 10px 0;
+    margin: 0 12px 0 0;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 12px;
+  width: 1px;
+  height: 14px;
+  background: #ccc;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li:first-child {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li:first-child::before {
+  display: none;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li:last-child::before {
+  display: none;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li span.type01 {
+  color: #C7638C;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li span.step-no {
+  color: #FF660D;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li span.step {
+  color: #37599A;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li button {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #37599A;
+  background: #ECECEC;
+  border: 1px solid #37599A;
+  width: 90px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li button.re {
+  color: #fff;
+  background: #37599A;
+  border: 1px solid #25437E;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.btns {
+    text-align: center;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.btns a {
+  display: block;
+  width: 300px;
+  margin: 0 auto 10px;
+  text-align: center;
+  line-height: 64px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 2px 6px #00000015;
+          box-shadow: 0px 2px 6px #00000015;
+  background: #37599A;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.btns a {
+    display: inline-block;
+    width: 360px;
+    line-height: 70px;
+    margin: 0 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.btns a span {
+    font-size: 18px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.btns a span strong {
+  font-weight: 600;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.certification {
+  border: 1px solid #BBBBBB;
+  background: #F6F8FB;
+  padding: 28px;
+  text-align: center;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.certification h4 {
+  padding: 10px 0 20px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.certification h4 {
+    font-size: 20px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.certification h4::before {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 86px;
+  margin: 0 auto 20px;
+  background: url(../images/img-certification.svg) no-repeat center/100% auto;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.certification h4::before {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.certification button {
+  display: block;
+  width: 300px;
+  margin: 0 auto 10px;
+  text-align: center;
+  line-height: 64px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 2px 6px #00000015;
+          box-shadow: 0px 2px 6px #00000015;
+  background: #37599A;
+  border: none;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.certification button {
+    display: inline-block;
+    width: 360px;
+    line-height: 70px;
+    margin: 0 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.certification button span {
+    font-size: 18px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.certification button span strong {
+  font-weight: 600;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree {
+  border: 1px solid #BBBBBB;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree {
+    margin-bottom: 30px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree:last-of-type {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree:last-of-type {
+    margin-bottom: 50px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head {
+  padding: 14px;
+  border-bottom: 1px solid #BBBBBB;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head {
+    padding: 16px 14px 12px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head span {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #222222;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head span {
+    display: inline-block;
+    font-size: 17px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head div.check {
+  text-align: right;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head div.check {
+    float: right;
+    margin-top: 4px;
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head div.check input {
+  display: none;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head div.check label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  margin-left: 20px;
+  color: #555555;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head div.check label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 22px;
+  height: 22px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head div.check input:checked + label {
+  color: #222222;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head div.check input:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg  transform='translate(-940 -272)'%3E%3Cg transform='translate(940 272)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(944 276)' fill='%235680cc' stroke='%23456eba' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.text {
+  height: 180px;
+  background: #F9F9F9;
+  padding: 10px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.text {
+    height: 198px;
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.text pre {
+  white-space: pre-wrap;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns {
+  text-align: center;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a {
+  display: inline-block;
+  width: 150px;
+  margin: 0 10px;
+  text-align: center;
+  line-height: 64px;
+  font-size: 18px;
+  color: #555555;
+  background: #F3F3F3;
+  border: 1px solid #AAAAAA;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a {
+    font-size: 19px;
+    width: 160px;
+    line-height: 70px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a.main {
+  background: #37599A;
+  color: #fff;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a span {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a span {
+    font-size: 18px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a span strong {
+  font-weight: 600;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.resultInquiry {
+  min-height: 300px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.resultInquiry {
+    min-height: 400px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.resultInquiry div.check {
+  text-align: left;
+  font-size: 16px;
+  margin: 30px 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.resultInquiry div.check {
+    margin-top: 40px 0 30px;
+    font-size: 17px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.resultInquiry div.check input {
+  display: none;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.resultInquiry div.check label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  margin-right: 20px;
+  color: #555555;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.resultInquiry div.check label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 22px;
+  height: 22px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.resultInquiry div.check input:checked + label {
+  color: #222222;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.resultInquiry div.check input:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg  transform='translate(-940 -272)'%3E%3Cg transform='translate(940 272)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(944 276)' fill='%235680cc' stroke='%23456eba' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList {
+  min-height: 300px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.inquiryList {
+    min-height: 400px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList div.check {
+  text-align: right;
+  font-size: 16px;
+  margin: 30px 0 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.inquiryList div.check {
+    margin-top: 40px 0 30px;
+    font-size: 17px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList div.check input {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList div.check label {
+  display: inline-block;
+  position: relative;
+  padding-left: 8px;
+  margin-right: 30px;
+  color: #555555;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList div.check input:checked + label {
+  color: #222222;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #CCCCCC;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li {
+  position: relative;
+  padding: 15px 15px 15px 56px;
+  border: 1px solid #CCCCCC;
+  border-top: none;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li {
+    padding: 20px 20px 20px 57px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li input {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li input {
+    left: 20px;
+    top: 20px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li strong {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 10px;
+  color: #222;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li strong {
+    font-size: 19px;
+    margin: 0 0 14px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li strong i {
+  font-style: normal;
+  font-size: 15px;
+  color: #5680CC;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li strong i {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li ul li {
+  display: inline-block;
+  position: relative;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #555555;
+  padding-right: 14px;
+  margin-right: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li ul li {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li ul li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 4px;
+  width: 1px;
+  height: 14px;
+  background: #ccc;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li ul li::after {
+    top: 5px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li ul li:last-child::after {
+  display: none;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.inquiryList a.download {
+  display: block;
+  width: 300px;
+  line-height: 64px;
+  margin: 30px auto;
+  padding-left: 50px;
+  border-radius: 6px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24.164' height='23.461' viewBox='0 0 24.164 23.461'%3E%3Cpath d='M19.709,41.14v6.449H4.455V41.14H0V52.364H24.164V41.14Z' transform='translate(0 -28.903)' fill='%23719df2'/%3E%3Cpath  d='M17.032,0V8.993h-3.88l7.631,9.243,7.631-9.243h-3.88V0Z' transform='translate(-8.702 0)' fill='%23719df2'/%3E%3C/svg%3E%0A") no-repeat #37599A left 50px center/24.2px auto;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.inquiryList a.download {
+    margin: 40px auto;
+    width: 360px;
+    line-height: 70px;
+    font-size: 20px;
+    background-size: 24px auto;
+    background-position: left 70px center;
+  }
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.board-list fieldset.search {
@@ -3880,6 +5517,409 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-write di
 
 body div#content.sub div.sub-contents div.contentsOutline section.board-write div#fileuploader {
   margin: 20px 0;
+}
+
+body div#content.pop {
+  padding: 0;
+}
+
+body div#content.pop div.container h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid #222222;
+}
+
+body div#content.pop div.container h2 small {
+  display: block;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #555555;
+}
+
+body div#content.pop div.container h2.top {
+  background: url(../images/logo.svg) no-repeat right top 30px/161px auto;
+}
+
+body div#content.pop div.container div.agree {
+  border: 1px solid #BBBBBB;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.agree {
+    margin-bottom: 30px;
+  }
+}
+
+body div#content.pop div.container div.agree:last-of-type {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.agree:last-of-type {
+    margin-bottom: 50px;
+  }
+}
+
+body div#content.pop div.container div.agree div.head {
+  padding: 14px;
+  border-bottom: 1px solid #BBBBBB;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.agree div.head {
+    padding: 16px 14px 12px;
+  }
+}
+
+body div#content.pop div.container div.agree div.head span {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #222222;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.agree div.head span {
+    display: inline-block;
+    font-size: 17px;
+  }
+}
+
+body div#content.pop div.container div.agree div.head div.check {
+  text-align: right;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.agree div.head div.check {
+    float: right;
+    margin-top: 4px;
+    font-size: 16px;
+  }
+}
+
+body div#content.pop div.container div.agree div.head div.check input {
+  display: none;
+}
+
+body div#content.pop div.container div.agree div.head div.check label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  margin-left: 20px;
+  color: #555555;
+}
+
+body div#content.pop div.container div.agree div.head div.check label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 22px;
+  height: 22px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body div#content.pop div.container div.agree div.head div.check input:checked + label {
+  color: #222222;
+}
+
+body div#content.pop div.container div.agree div.head div.check input:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg  transform='translate(-940 -272)'%3E%3Cg transform='translate(940 272)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(944 276)' fill='%235680cc' stroke='%23456eba' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+body div#content.pop div.container div.agree div.text {
+  height: 180px;
+  background: #F9F9F9;
+  padding: 10px;
+  overflow-y: auto;
+  line-height: 1.6;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.agree div.text {
+    height: 198px;
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+
+body div#content.pop div.container div.agree div.text pre {
+  white-space: pre-wrap;
+}
+
+body div#content.pop div.container div.linkSet {
+  margin: 0 0 40px;
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.linkSet {
+    margin: 10px 0 50px;
+  }
+}
+
+body div#content.pop div.container div.linkSet p {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin: 0;
+  border: 1px solid #BBBBBB;
+  width: calc((100% - 8px) / 2);
+  height: 330px;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.linkSet p {
+    width: calc((100% - 25px) / 2);
+    height: 340px;
+  }
+}
+
+body div#content.pop div.container div.linkSet p::before {
+  content: "";
+  display: block;
+  margin: 16px auto;
+  width: 90px;
+  height: 90px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.linkSet p::before {
+    width: 154px;
+    height: 154px;
+    margin: 28px auto 15px;
+  }
+}
+
+body div#content.pop div.container div.linkSet p strong {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #37599A;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.linkSet p strong {
+    font-size: 22px;
+  }
+}
+
+body div#content.pop div.container div.linkSet p strong span {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.linkSet p strong span {
+    display: inline;
+  }
+}
+
+body div#content.pop div.container div.linkSet p a {
+  display: block;
+  width: 110px;
+  line-height: 38px;
+  background: #505B6E;
+  border: 1px solid #2E3D58;
+  margin: 18px auto 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.linkSet p a {
+    width: 120px;
+    line-height: 40px;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+}
+
+body div#content.pop div.container div.linkSet p a.sign {
+  display: block;
+  background: #fff;
+  border-color: #999999;
+  color: #555555;
+  margin: 10px auto 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.linkSet p a.sign, body div#content.pop div.container div.linkSet p a.inline {
+    display: inline-block;
+    margin: 16px 5px 0;
+  }
+}
+
+body div#content.pop div.container div.linkSet p > span {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.linkSet p > span {
+    font-size: 15px;
+    bottom: 24px;
+  }
+}
+
+body div#content.pop div.container div.linkSet p.phone {
+  margin-right: 8px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.pop div.container div.linkSet p.phone {
+    margin-right: 25px;
+  }
+}
+
+body div#content.pop div.container div.linkSet p.phone::before {
+  background: url(../images/signPhone.svg) no-repeat center/100% auto;
+}
+
+body div#content.pop div.container div.linkSet p.ipin {
+  background: #F5F6FC;
+}
+
+body div#content.pop div.container div.linkSet p.ipin::before {
+  background: url(../images/signIpin.svg) no-repeat center/100% auto;
+}
+
+body div.layerPop {
+  position: fixed;
+  display: none;
+  z-index: 1000000;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+body div.layerPop.on {
+  display: block;
+}
+
+body div.layerPop div.outline {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  margin: 200px auto 0;
+  border: 1px solid #555555;
+}
+
+@media (min-width: 1200px) {
+  body div.layerPop div.outline {
+    width: 848px;
+    left: 50%;
+    margin: 360px 0 0;
+    margin-left: -424px;
+  }
+}
+
+body div.layerPop div.outline div.head {
+  height: 44px;
+  background: #282E3D;
+  border-bottom: 1px solid #303339;
+}
+
+@media (min-width: 1200px) {
+  body div.layerPop div.outline div.head {
+    height: 46px;
+  }
+}
+
+body div.layerPop div.outline div.head button.close {
+  position: relative;
+  float: right;
+  border: none;
+  height: 44px;
+  background: transparent;
+  color: #fff;
+  border-left: 1px solid #9298AB;
+  padding: 0 20px 0 34px;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body div.layerPop div.outline div.head button.close {
+    height: 46px;
+    font-size: 16px;
+  }
+}
+
+body div.layerPop div.outline div.head button.close::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 14px;
+  width: 14px;
+  height: 14px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14' height='14' viewBox='0 0 14 14'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='14' height='14' transform='translate(-0.353)' fill='%23fff' stroke='%23fff' stroke-width='1'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  transform='translate(0.353)'%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath   d='M13.8.2a.666.666,0,0,0-.943,0L7,6.057,1.138.2A.667.667,0,0,0,.2,1.138L6.057,7,.2,12.862a.667.667,0,0,0,.943.943L7,7.942,12.862,13.8a.667.667,0,0,0,.943-.943L7.942,7,13.8,1.138A.666.666,0,0,0,13.8.2' transform='translate(0 0)' fill='%23fff' stroke='%23fff' stroke-width='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+@media (min-width: 1200px) {
+  body div.layerPop div.outline div.head button.close::before {
+    top: 16px;
+  }
+}
+
+body div.layerPop div.outline div.inline {
+  padding: 26px 10px;
+}
+
+@media (min-width: 1200px) {
+  body div.layerPop div.outline div.inline {
+    padding: 45px 35px;
+  }
+}
+
+body div.layerPop div.outline div.inline div.tableOutline table {
+  min-width: 720px;
+}
+
+body div.layerPop div.outline div.inline div.btns {
+  text-align: center;
+  margin-top: 30px;
+}
+
+body div.layerPop div.outline div.inline div.btns button {
+  width: 120px;
+  height: 56px;
+  border-radius: 6px;
+  border: 1px solid #AAAAAA;
+  background: #F3F3F3;
+  font-size: 17px;
+  font-weight: 600;
+  color: #555555;
+  margin: 0 6px;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 1200px) {
+  body div.layerPop div.outline div.inline div.btns button {
+    font-size: 18px;
+    width: 140px;
+    height: 60px;
+  }
+}
+
+body div.layerPop div.outline div.inline div.btns button.main {
+  color: #fff;
+  border-color: transparent;
+  background: #37599A;
 }
 
 body footer#footer {

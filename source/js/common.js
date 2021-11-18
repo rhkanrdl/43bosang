@@ -9,30 +9,6 @@ $(function(){
 
 
     
-    $("section .login-type input[name=type]").on("click", function(){
-        
-        var check = $(this).attr("id"); 
-
-        $("div.login-box").removeClass("on");
-        $("div.login-box."+ check).addClass("on");
-    });
-    
-    $("section.main-list .data-type input[name=type]").on("click", function(){
-        
-        var check = $(this).attr("id"); 
-
-        $("div.data-box").removeClass("on");
-        $("div.data-box."+ check).addClass("on");
-    });
-    
-    $("section.main-reserv .data-type input[name=reservType]").on("click", function(){
-        
-        var check = $(this).attr("id"); 
-
-        $("div.search-box").removeClass("on");
-        $("div.search-box."+ check).addClass("on");
-        console.log(check);
-    });
     
     
     $("section.sub-contents #sub-menu li.on a").on("click", function(e){
@@ -43,7 +19,23 @@ $(function(){
     });
     
     
+    $("section.history dt").on("click", function(e){
+        $("section.history dt").removeClass("on");
+        $(this).addClass("on");
+
+    });
     
+    $("table button.pop").on("click", function(){
+        $("div.layerPop").addClass("on");
+    });
+
+    $("button.pop").on("click", function(){
+        $("div.layerPop").addClass("on");
+    });
+    
+    $("div.layerPop button.close").on("click", function(){
+        $("div.layerPop").removeClass("on");
+    });
 
 
     $(window).on("resize", function(){
