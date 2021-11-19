@@ -3513,41 +3513,26 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
 
 body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments div.btns a {
   display: block;
-  width: 260px;
+  width: 300px;
   margin: 0 auto 10px;
   text-align: center;
-  padding: 10px 0 0;
-  height: 64px;
+  line-height: 64px;
   font-size: 18px;
   color: #fff;
   font-weight: 400;
   border-radius: 6px;
   -webkit-box-shadow: 0px 2px 6px #00000015;
           box-shadow: 0px 2px 6px #00000015;
+  background: #37599A;
 }
 
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments div.btns a {
     display: inline-block;
-    width: 200px;
-    height: 80px;
+    width: 360px;
+    line-height: 70px;
     margin: 0 15px;
-    padding: 15px 0 0;
-    font-size: 14px;
-    line-height: 1.6;
   }
-}
-
-body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments div.btns a.btn01 {
-  background: #5680CC;
-}
-
-body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments div.btns a.btn02 {
-  background: #37599A;
-}
-
-body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments div.btns a span {
-  display: block;
 }
 
 @media (min-width: 1200px) {

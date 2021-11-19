@@ -1658,38 +1658,27 @@ body {
 
                   a {
                     display:block;
-                    width:260px;
+                    width:300px;
                     margin:0 auto 10px;
                     text-align:center;
-                    padding:10px 0 0;
-                    height:64px;
+                    line-height:64px;
                     font-size:18px;
                     color:#fff;
                     font-weight:400;
                     border-radius:6px;
                     box-shadow: 0px 2px 6px #00000015;
+                    background:#37599A;
 
                     @media (min-width: $screen-size-pc) {
                       display:inline-block;
-                      width:200px;
-                      height:80px;
+                      width:360px;
+                      line-height:70px;
                       margin:0 15px;
-                      padding:15px 0 0;
-                      font-size:14px;
-                      line-height:1.6;
                       
                     }
 
-                    &.btn01 {
-                      background:#5680CC;
-                    }
-
-                    &.btn02 {
-                      background:#37599A;
-                    }
 
                     span {
-                      display:block;
 
                       @media (min-width: $screen-size-pc) {
                         font-size:18px;
