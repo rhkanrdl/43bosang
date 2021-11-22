@@ -4549,6 +4549,50 @@ body div#content.sub div.sub-contents div.contentsOutline section.inquiryList a.
   }
 }
 
+body div#content.sub div.sub-contents div.contentsOutline section.board-info {
+  background: #F5F7FC;
+  padding: 25px 0;
+  margin: 25px 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-info {
+    background: #fff;
+  }
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-info {
+    background: #F5F7FC;
+    padding: 35px;
+    position: relative;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-info p {
+  position: relative;
+  padding: 0 0 0 14px;
+  margin: 0 0 10px;
+  color: #3E588D;
+  font-size: 14px;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-info p {
+    font-size: 18px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-info p::before {
+  display: inline-block;
+  content: "*";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  word-break: keep-all;
+}
+
 body div#content.sub div.sub-contents div.contentsOutline section.board-list fieldset.search {
   vertical-align: top;
   border: none;
@@ -5080,6 +5124,118 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-view div
 
 body div#content.sub div.sub-contents div.contentsOutline section.board-view div.board-text img {
   max-width: 100%;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  border-top: 1px solid #ccc;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul {
+    margin: 0 0 30px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul li {
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul li {
+    padding: 30px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul li h5 {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul li h5 {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul li.admin {
+  background: #f3fbff;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul li.admin h5 {
+  font-size: 14px;
+  font-weight: 400;
+  background: #1c7cc2;
+  color: #fff;
+  padding: 4px 10px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul li.admin h5 {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul li p.date {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  font-size: 13px;
+  color: #777777;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul li p.date {
+    font-size: 15px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply ul li div.text {
+  padding: 20px 0 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply div.btn-set.right {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  margin: 10px 0;
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply div.btn-set.right {
+    right: 30px;
+    top: 30px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply div.btn-set.right .btn {
+  line-height: 1;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  background: none;
+  min-width: auto;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply div.btn-set.right .btn {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.board-view div.reply div.btn-set.right .btn:first-of-type::after {
+  content: "|";
+  position: relative;
+  top: -1px;
+  margin: 0 6px;
+  font-size: 12px;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.board-write {
