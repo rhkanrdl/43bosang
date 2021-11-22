@@ -2120,6 +2120,17 @@ body header .container h1 a {
   background: url(../images/logoW.svg) no-repeat center/100% auto;
 }
 
+body header .container div.util {
+  position: absolute;
+  right: 100px;
+  top: 15px;
+}
+
+body header .container div.util a {
+  font-size: 14px;
+  color: #fff;
+}
+
 body header .container button.main-menu {
   position: absolute;
   right: 15px;
@@ -2138,7 +2149,7 @@ body header .container button.main-menu {
     right: 0;
     width: 36px;
     height: 36px;
-    top: 30px;
+    top: 40px;
   }
 }
 
@@ -2148,6 +2159,10 @@ body header.on {
 
 body header.on h1 a {
   background: url(../images/logo.svg) no-repeat center/100% auto;
+}
+
+body header.on div.util a {
+  color: #555;
 }
 
 @media (max-width: 1199px) {
@@ -2244,7 +2259,7 @@ body header.on h1 a {
   }
   body nav#main-menu.menu div.menus {
     position: absolute;
-    top: -80px;
+    top: -69px;
     right: 50%;
     margin-right: -500px;
   }
@@ -2396,6 +2411,10 @@ body.sub header {
 
 body.sub header h1 a {
   background-image: url(../images/logo.svg);
+}
+
+body.sub header div.util a {
+  color: #555;
 }
 
 @media (min-width: 1200px) {

@@ -85,6 +85,17 @@ body {
   
       }
 
+      div.util {
+        position:absolute;
+        right:100px;
+        top:15px;
+
+        a {
+          font-size:14px;
+          color:#fff;
+        }
+      }
+
       button.main-menu {
         position: absolute;
         right: 15px;
@@ -101,7 +112,7 @@ body {
           right:0;
           width:36px;
           height:36px;
-          top:30px;
+          top:40px;
         }
       }
     }
@@ -114,6 +125,14 @@ body {
           background:url(../images/logo.svg) no-repeat center / 100% auto;
         }
       }
+
+      div.util {
+
+        a {
+          color:#555;
+        }
+      }
+
     }
   }
 
@@ -241,7 +260,7 @@ body {
   
         div.menus {
           position: absolute;
-          top: -80px;
+          top: -69px;
           right: 50%;
           margin-right: -500px;
   
@@ -449,6 +468,16 @@ body {
           background-image:url(../images/logo.svg);
         }
       }
+
+
+
+      div.util {
+
+        a {
+          color:#555;
+        }
+      }
+
     }
 
 
