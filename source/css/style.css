@@ -2120,17 +2120,6 @@ body header .container h1 a {
   background: url(../images/logoW.svg) no-repeat center/100% auto;
 }
 
-body header .container div.util {
-  position: absolute;
-  right: 100px;
-  top: 15px;
-}
-
-body header .container div.util a {
-  font-size: 14px;
-  color: #fff;
-}
-
 body header .container button.main-menu {
   position: absolute;
   right: 15px;
@@ -2166,6 +2155,15 @@ body header.on div.util a {
 }
 
 @media (max-width: 1199px) {
+  body nav#main-menu div.util {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+  }
+  body nav#main-menu div.util a {
+    font-size: 14px;
+    color: #555;
+  }
   body nav#main-menu.menu {
     display: none;
   }
@@ -2245,6 +2243,16 @@ body header.on div.util a {
 }
 
 @media (min-width: 1200px) {
+  body nav#main-menu div.util {
+    position: absolute;
+    right: 50%;
+    top: -85px;
+    margin-right: -500px;
+  }
+  body nav#main-menu div.util a {
+    font-size: 14px;
+    color: #fff;
+  }
   body nav#main-menu.menu {
     position: absolute;
     z-index: 100001;
@@ -2292,9 +2300,9 @@ body header.on div.util a {
     position: absolute;
     left: 50%;
     top: 70px;
-    width: 160px;
+    width: 210px;
     list-style: none;
-    margin: 0 0 0 -80px;
+    margin: 0 0 0 -105px;
     padding: 20px 20px 10px;
     background: #253039;
     border: 1px solid #17171A;
@@ -2390,12 +2398,15 @@ body header.on div.util a {
     height: 13px;
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.719' height='11.25' viewBox='0 0 8.719 11.25'%3E%3Cpath id='패스_22251' data-name='패스 22251' d='M5.344,4.25l5.906,8.719H0Z' transform='translate(12.969) rotate(90)' fill='%234572c2'/%3E%3C/svg%3E%0A") no-repeat center/100% auto;
   }
+  body nav#main-menu.allMenu div.util a {
+    color: #555;
+  }
   body nav#main-menu.allMenu button.close {
     position: absolute;
     font-size: 0;
     left: 50%;
     margin-left: 564px;
-    top: -71px;
+    top: -61px;
     width: 36px;
     height: 36px;
     border: none;
@@ -2413,11 +2424,10 @@ body.sub header h1 a {
   background-image: url(../images/logo.svg);
 }
 
-body.sub header div.util a {
-  color: #555;
-}
-
 @media (min-width: 1200px) {
+  body.sub nav#main-menu div.util a {
+    color: #555;
+  }
   body.sub nav#main-menu.menu div.menus > ul > li h3 a {
     color: #222;
   }
@@ -3111,6 +3121,7 @@ body div#content.main section.main-issue div.container h3 {
 body div#content.main section.main-issue div.container div.links {
   font-size: 0;
   padding: 0 25px;
+  text-align: center;
 }
 
 body div#content.main section.main-issue div.container div.links a {
@@ -5830,14 +5841,14 @@ body div#content.pop div.container div.linkSet p {
   vertical-align: top;
   margin: 0;
   border: 1px solid #BBBBBB;
-  width: calc((100% - 8px) / 2);
+  width: 100%;
   height: 330px;
   text-align: center;
 }
 
 @media (min-width: 1200px) {
   body div#content.pop div.container div.linkSet p {
-    width: calc((100% - 25px) / 2);
+    width: 100%;
     height: 340px;
   }
 }
