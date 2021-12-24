@@ -5985,16 +5985,19 @@ body div.layerPop div.outline {
   position: absolute;
   background: #fff;
   width: 100%;
-  margin: 200px auto 0;
+  margin: 80px auto 0;
   border: 1px solid #555555;
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
 }
 
 @media (min-width: 1200px) {
   body div.layerPop div.outline {
     width: 848px;
     left: 50%;
-    margin: 360px 0 0;
+    margin: 200px 0 0;
     margin-left: -424px;
+    max-height: calc(100vh - 220px);
   }
 }
 
