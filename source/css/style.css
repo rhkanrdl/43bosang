@@ -2684,7 +2684,7 @@ body dl.form dd p.radio input:checked + label {
 }
 
 body dl.form dd p.radio input:checked + label::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg id='그룹_1713' data-name='그룹 1713' transform='translate(-101 -1155)'%3E%3Cg id='타원_24' data-name='타원 24' transform='translate(101 1155)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3Cg id='타원_23' data-name='타원 23' transform='translate(105 1159)' fill='%23505b6e' stroke='%23505b6e' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg transform='translate(-101 -1155)'%3E%3Cg transform='translate(101 1155)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(105 1159)' fill='%23505b6e' stroke='%23505b6e' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
 }
 
 body dl.form dd p.file {
@@ -4286,7 +4286,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.receiptForm di
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head div.check input:checked + label::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg  transform='translate(-940 -272)'%3E%3Cg transform='translate(940 272)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(944 276)' fill='%235680cc' stroke='%23456eba' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg  transform='translate(-940 -272)'%3E%3Cg transform='translate(940 272)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(944 276)' fill='%235680cc' stroke='%23456eba' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.text {
