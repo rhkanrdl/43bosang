@@ -2466,6 +2466,26 @@ body h4.sTitle div.check input {
   vertical-align: bottom;
 }
 
+body p.same {
+  display: block;
+  background: #eee;
+  border-top: 1px solid #222;
+  padding: 20px;
+  font-size: 14px;
+}
+
+body p.same input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+body p.same label {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+}
+
 body dl.form {
   position: relative;
   border: 1px solid #bbb;
