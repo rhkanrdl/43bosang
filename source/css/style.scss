@@ -530,7 +530,6 @@ body {
   
         }
   
-  
       }
   
   
@@ -3844,6 +3843,201 @@ body {
                 }
               }
           
+
+
+              &.card-list {
+
+                ul {
+                  list-style:none;
+                  margin:0;
+                  padding:0;
+                  font-size:0;
+
+                  li {
+                    display:inline-block;
+                    width:calc((100% - 18px) / 2);
+                    height:204px;
+                    border:1px solid #AAAAAA;
+                    font-size:16px;
+                    text-align:center;
+                    padding:20px;
+                    margin-bottom:18px;
+                    border-radius:10px;
+
+                    @media (min-width: $screen-size-pc) {
+                      width:calc((100% - 70px) / 3);
+                      height:180px;
+                      padding:28px 34px;
+                      margin-right:35px;
+                    }
+
+
+                    @include drop-shadow(
+                      $x: 0,
+                      $y: 0,
+                      $blur: 5px,
+                      $spread: 0,
+                      $alpha: 0.15
+                    );
+
+                  @media (min-width: $screen-size-pc) {
+
+
+                    @include drop-shadow(
+                      $x: 0,
+                      $y: 2,
+                      $blur: 15px,
+                      $spread: 0,
+                      $alpha: 0.2
+                    );
+                  }
+
+                    &:nth-child(odd) {
+                      margin-right:18px;
+
+                      @media (min-width: $screen-size-pc) {
+                        margin-right:35px;
+                      }
+                    }
+
+                    @media (min-width: $screen-size-pc) {
+                      &:nth-child(3n) {
+                        margin-right:0;
+                      }
+                    }
+
+                    h4 {
+                      font-weight:500;
+                      line-height:1.6;
+                      margin:0 0 20px;
+                      height:102.4px;
+                      display:-webkit-box;
+                      -webkit-line-clamp:4;
+                      -webkit-box-orient:vertical;
+                      overflow:hidden;
+                      text-overflow:ellipsis;
+
+                      @media (min-width: $screen-size-pc) {
+                        font-size:18px;
+                        margin:0 0 14px;
+                        height:83px;
+                        -webkit-line-clamp:3;
+                      }
+                    }
+
+                    a {
+                      display:block;
+                      margin:0 auto;
+                      background:#37599A;
+                      border-radius:4px;
+                      color:#fff;
+                      line-height:34px;
+                      border-bottom:5px solid #253A61;
+                      font-size:14px;
+
+                      @media (min-width: $screen-size-pc) {
+                        font-size:16px;
+                      }
+                    }
+                  }
+                }
+              }
+
+
+              &.card-list2 {
+
+                ul {
+                  list-style:none;
+                  margin:0;
+                  padding:0;
+                  font-size:0;
+
+                  li {
+                    display:inline-block;
+                    width:calc((100% - 18px) / 2);
+                    height:204px;
+                    border:1px solid #AAAAAA;
+                    font-size:16px;
+                    text-align:center;
+                    padding:20px;
+                    margin-bottom:18px;
+                    border-radius:10px;
+
+                    @media (min-width: $screen-size-pc) {
+                      width:calc((100% - 70px) / 3);
+                      height:180px;
+                      padding:28px 34px;
+                      margin-right:35px;
+                    }
+
+
+                    @include drop-shadow(
+                      $x: 0,
+                      $y: 0,
+                      $blur: 5px,
+                      $spread: 0,
+                      $alpha: 0.15
+                    );
+
+                  @media (min-width: $screen-size-pc) {
+
+
+                    @include drop-shadow(
+                      $x: 0,
+                      $y: 2,
+                      $blur: 15px,
+                      $spread: 0,
+                      $alpha: 0.2
+                    );
+                  }
+
+                    &:nth-child(odd) {
+                      margin-right:18px;
+
+                      @media (min-width: $screen-size-pc) {
+                        margin-right:35px;
+                      }
+                    }
+
+                    @media (min-width: $screen-size-pc) {
+                      &:nth-child(3n) {
+                        margin-right:0;
+                      }
+                    }
+
+                    h4 {
+                      font-weight:500;
+                      line-height:1.6;
+                      margin:0 0 10px;
+                      height:90px;
+                      padding:40px 0 0;
+                      word-break:keep-all;
+
+                      @media (min-width: $screen-size-pc) {
+                        font-size:18px;
+                        margin:0 0 14px;
+                        height:58px;
+                        padding:20px 0 0;
+                      }
+                    }
+
+                    a {
+                      display:block;
+                      margin:0 auto;
+                      background:#37599A;
+                      border-radius:4px;
+                      color:#fff;
+                      line-height:34px;
+                      border-bottom:5px solid #253A61;
+                      font-size:14px;
+
+                      @media (min-width: $screen-size-pc) {
+                        font-size:16px;
+                      }
+                    }
+                  }
+                }
+              }
 
 
             }
