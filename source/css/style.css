@@ -1983,7 +1983,7 @@ body header .container button.main-menu {
     position: absolute;
     right: 50%;
     top: -85px;
-    margin-right: -500px;
+    margin-right: -540px;
   }
   body nav#main-menu div.util a {
     font-size: 14px;
@@ -2005,7 +2005,7 @@ body header .container button.main-menu {
     position: absolute;
     top: -69px;
     right: 50%;
-    margin-right: -500px;
+    margin-right: -540px;
   }
   body nav#main-menu.menu div.menus > ul {
     list-style: none;
@@ -2017,7 +2017,7 @@ body header .container button.main-menu {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    margin-right: 50px;
+    margin-right: 26px;
   }
   body nav#main-menu.menu div.menus > ul > li:last-of-type {
     margin-right: 0;
@@ -2085,7 +2085,7 @@ body header .container button.main-menu {
   }
   body nav#main-menu.allMenu div.menus > ul > li {
     display: inline-block;
-    width: 195px;
+    width: 170px;
     height: 300px;
     vertical-align: top;
     border-right: 1px solid #B3C4D5;
@@ -2102,7 +2102,7 @@ body header .container button.main-menu {
     font-size: 19px;
     word-break: keep-all;
     font-weight: 800;
-    padding: 0 50px;
+    padding: 0 30px;
     height: 60px;
     line-height: 1.6;
   }
