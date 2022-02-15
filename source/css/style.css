@@ -1936,12 +1936,12 @@ body header .container button.main-menu {
   }
   body nav#main-menu.allMenu div.menus > ul > li {
     border-top: 1px solid #B3C4D5;
-    padding: 28px;
+    padding: 20px 10px 20px 20px;
   }
   body nav#main-menu.allMenu div.menus > ul > li h3 {
     margin: 0;
     display: inline-block;
-    width: 140px;
+    width: 100px;
     margin-right: 20px;
   }
   body nav#main-menu.allMenu div.menus > ul > li h3 a {
@@ -1950,7 +1950,7 @@ body header .container button.main-menu {
     font-weight: 600;
     line-height: 1.6;
     color: #222;
-    padding: 0 20px;
+    padding: 0;
     word-break: keep-all;
   }
   body nav#main-menu.allMenu div.menus > ul > li ul {
@@ -2078,14 +2078,14 @@ body header .container button.main-menu {
   body nav#main-menu.allMenu div.menus > ul::before {
     content: "";
     display: inline-block;
-    width: 180px;
+    width: 150px;
     height: 300px;
-    background: url(../images/img-menu.svg) no-repeat left top 30px/142px auto;
+    background: url(../images/img-menu.svg) no-repeat left top 30px/122px auto;
     border-right: 1px solid #B3C4D5;
   }
   body nav#main-menu.allMenu div.menus > ul > li {
     display: inline-block;
-    width: 170px;
+    width: 175px;
     height: 300px;
     vertical-align: top;
     border-right: 1px solid #B3C4D5;
@@ -2115,12 +2115,13 @@ body header .container button.main-menu {
   body nav#main-menu.allMenu div.menus > ul > li ul li a {
     display: block;
     position: relative;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 15px;
-    padding: 0 18px;
+    padding: 0 14px;
+    word-break: keep-all;
   }
   body nav#main-menu.allMenu div.menus > ul > li ul li a:hover, body nav#main-menu.allMenu div.menus > ul > li ul li a.active {
-    padding-left: 36px;
+    padding-left: 30px;
     font-weight: 600;
     color: #4572C2;
   }
@@ -2130,7 +2131,7 @@ body header .container button.main-menu {
     position: absolute;
     left: 18px;
     top: 3px;
-    width: 11.2px;
+    width: 8px;
     height: 13px;
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.719' height='11.25' viewBox='0 0 8.719 11.25'%3E%3Cpath id='패스_22251' data-name='패스 22251' d='M5.344,4.25l5.906,8.719H0Z' transform='translate(12.969) rotate(90)' fill='%234572c2'/%3E%3C/svg%3E%0A") no-repeat center/100% auto;
   }
