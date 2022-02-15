@@ -3768,6 +3768,11 @@ body {
                       @media (min-width: $screen-size-pc) {
                         font-size: 16px;
                       }
+
+                      a {
+                        color:#1c7cc2;
+                        text-decoration:underline;
+                      }
                     }
           
                     input:checked + label {
@@ -4655,6 +4660,320 @@ body {
 
 
               }
+
+
+
+
+              &.memorial-info {
+                position:relative;
+                overflow:hidden;
+                width:100%;
+                height:280px;
+                padding:20px;
+                background:url(../images/memorrial-bg.png) no-repeat center / cover;
+                margin-bottom:15px;
+          
+                @media (min-width: $screen-size-pc) {
+                  padding:50px;
+                }
+    
+
+                div.flowers {
+                  display:block;
+                  position:absolute;
+                  left:0;
+                  right:0;
+                  top:0;
+                  bottom:0;
+
+                  background:url(../images/flowers.png) no-repeat;
+                  background-size:554px 228px;
+                  background-position:right -200px bottom -120px;
+          
+                  @media (min-width: $screen-size-pc) {
+                    background-position:right -90px bottom -120px;
+                  }
+      
+                }
+
+                p {
+                  position:relative;
+                  z-index:10;
+                  font-size:0;
+                  width:304px;
+                  height:114px;
+                  max-width:100%;
+                  background:url(../images/memorial-text-mobile.svg) no-repeat center top / 100% auto;
+          
+                  @media (min-width: $screen-size-pc) {
+                    width:443px;
+                    height:118px;
+                    background:url(../images/memorial-text.svg) no-repeat center top / 100% auto;
+                  }
+                  
+                }
+
+                button {
+                  position:relative;
+                  z-index:10;
+                  display:block;
+                  margin:25px auto 0;
+                  font-size:17px;
+                  font-weight:600;
+                  color:#222222;
+                  border:1px solid #707070;
+                  background:rgba(255,255,255,.6);
+                  width:140px;
+                  height:40px;
+                  border-radius:4px;
+
+                  @media (min-width: $screen-size-pc) {
+                    font-size:18px;
+                    margin:25px 0 0;
+                  }
+
+                  &:hover,
+                  &:active {
+                    background:#37599A;
+                    border-color:transparent;
+                    color:#fff;
+                  }
+                }
+
+
+                @keyframes flowerdown {
+                  from {
+                    opacity:0;
+                    top:-20px;
+                  }
+                  to {
+                    opacity:1;
+                    top:200px;
+                  }
+                }
+
+                span {
+                  display:block;
+                  position:absolute;
+                  animation-name: flowerdown;
+                  animation-duration: 3s;
+                  opacity:1;
+                  top:200px;
+
+                  &.flower01 {
+                    width:195px;
+                    height:103px;
+                    background:url(../images/flower01.png) no-repeat center / 100% auto;
+                  }
+
+                  &.flower02 {
+                    width:187px;
+                    height:127px;
+                    background:url(../images/flower02.png) no-repeat center / 100% auto;
+                  }
+
+                  &.flower03 {
+                    width:202px;
+                    height:150px;
+                    background:url(../images/flower03.png) no-repeat center / 100% auto;
+                  }
+
+                  &.flower04 {
+                    width:184px;
+                    height:105px;
+                    background:url(../images/flower04.png) no-repeat center / 100% auto;
+                  }
+
+                  &.flower05 {
+                    width:211px;
+                    height:190px;
+                    background:url(../images/flower05.png) no-repeat center / 100% auto;
+                  }
+
+                  &.flower06 {
+                    width:200px;
+                    height:167px;
+                    background:url(../images/flower06.png) no-repeat center / 100% auto;
+                  }
+
+                  &.flower07 {
+                    width:174px;
+                    height:169px;
+                    background:url(../images/flower06.png) no-repeat center / 100% auto;
+                  }
+                }
+              }
+
+              &.memorial-text {
+                
+                p {
+                  font-size:15px;
+                  margin:0 0 30px;
+          
+                  @media (min-width: $screen-size-pc) {
+                    font-size: 16px;
+                    margin:0 0 36px;
+                  }
+
+                }
+
+                div.text {
+                  border:1px solid #BEBEBE;
+                  border-radius:6px;
+                  padding:25px 25px 25px 64px;
+                  background:url("../images/memorial-img.svg") no-repeat left 14px center /  40px auto;
+          
+                  @media (min-width: $screen-size-pc) {
+                    padding:26px 26px 26px 100px;
+                    background-size:48px auto;
+                    background-position:left 31px center;
+                  }
+
+                  strong {
+                    display:block;
+                    font-size:18px;
+                    color:#37599A;
+                    margin:0 0 15px;
+          
+                    @media (min-width: $screen-size-pc) {
+                      font-size: 20px;
+                    }
+                  }
+
+                  span {
+                    display:block;
+                    line-height:1.6;
+                    word-break:keep-all;
+                    font-size:14px;
+          
+                    @media (min-width: $screen-size-pc) {
+                      font-size: 16px;
+                    }
+                  }
+                }
+
+                div.buttons {
+                  padding:15px 0;
+                  text-align:center;
+                  font-size:0;
+          
+                  @media (min-width: $screen-size-pc) {
+                    padding:20px 0;
+                  }
+
+                  a {
+                    display:inline-block;
+                    background:#37599A;
+                    color:#fff;
+                    line-height:42px;
+                    padding:0 20px;
+                    font-size:16px;
+                    font-weight:500;
+                    border-radius:4px;
+                    margin:0 4px 10px;
+          
+                    @media (min-width: $screen-size-pc) {
+                      font-size:17px;
+                      padding:0 30px;
+                    }
+                  }
+                }
+              }
+
+              &.memorial-list {
+
+                ul.list {
+                  list-style: none;
+                  margin: 0;
+                  padding: 0;
+                  border-top: 2px solid #3d3d3d;
+                  font-size: 0;
+
+                  @media (min-width: $screen-size-pc) {
+                  }
+
+                  li {
+
+                    a {
+                      display: block;
+                      position: relative;
+                      padding: 15px 10px 10px 50px;
+                      border-bottom: 1px solid #ccc;
+                      background:url("../images/memorial-img.svg") no-repeat left 10px top 15px /  25px auto;
+
+                      @media (min-width: $screen-size-pc) {
+                        padding: 25px 0 20px 60px;
+                        background-size:32px auto;
+                        background-position:left 15px top 20px;
+                      }
+
+                      h4 {
+                        font-size: 16px;
+                        margin: 0 0 5px;
+                        font-weight: 400;
+
+                        @media (min-width: $screen-size-pc) {
+                          position: relative;
+                          display: inline-block;
+                          font-size: 18px;
+                          width: 555px;
+                          margin: 0;
+                          padding:0 0 0 10px;
+                        }
+
+                      }
+
+                      p {
+                        margin: 0 0 5px;
+                        position: relative;
+                        font-size:14px;
+                        display:block;
+
+                        @media (min-width: $screen-size-pc) {
+                          display:inline-block;
+                          font-size:16px;
+                        }
+
+                        &.num {
+                          display:none;
+
+                          @media (min-width: $screen-size-pc) {
+                            display:inline-block;
+                            text-align:center;
+                            width:80px;
+                          }
+  
+                        }
+
+                        &.name {
+
+                          @media (min-width: $screen-size-pc) {
+                            text-align:center;
+                            width:90px;
+                          }
+  
+                        }
+
+                        &.date {
+
+                          @media (min-width: $screen-size-pc) {
+                            text-align:center;
+                            width:130px;
+                          }
+  
+                        }
+
+
+                      }
+                    }
+
+
+                    &.notice {
+                      background: #f3f3f3;
+                    }
+                  }
+                }
+            }
 
             }
 

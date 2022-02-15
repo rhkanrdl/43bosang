@@ -46,6 +46,55 @@ $(function(){
 
 
 
+
+    function getRandom(min, max) {
+        return Math.floor((Math.random() * (max - min + 1)) + min);
+    }
+    
+    
+
+    function getRandomArray(min, max, count) {
+ 
+        // 종료
+        if (max - min + 1 < count) return;
+     
+        // 배열 생성
+        var rst = [];
+        
+        while (1) {
+            var index = getRandom(min, max);
+     
+            // 중복 여부를 체크
+            if (rst.indexOf(index) > -1) {
+                continue;
+            }
+     
+            rst.push(index);
+     
+            // 원하는 배열 갯수가 되면 종료
+            if (rst.length == count) {
+                break;
+            }
+        }
+     
+        // 정렬
+        return rst.sort(function (a, b) {
+            return a - b;
+        });
+    }
+    
+    
+
+    $(".memorial-info button").on('click', function(){
+
+        var nums = getRandomArray(1, 7, 1);
+        var pos = getRandomArray(1, 80, 1);
+
+        $(".memorial-info div.flowers").append("<span class='flower0"+ nums +"' style='left:"+ pos +"%'></span>")
+    });
+
+
+
 });
 
 
