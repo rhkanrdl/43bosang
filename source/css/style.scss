@@ -1230,8 +1230,9 @@ body {
           // }
 
 
-          a.rememmber {
+          div.rememmber {
             display:block;
+            position:relative;
             width:100%;
             padding:57% 0 0;
             font-size:0;
@@ -1244,6 +1245,48 @@ body {
               padding:0;
               margin:0 auto 52px;
               background:url(../images/remember.svg) no-repeat center / 100% auto;
+            }
+
+            a {
+              display:block;
+              position: absolute;
+              bottom:24px;
+              border:1px solid #fff;
+              border-radius:15px;
+              font-size:16px;
+              color:#fff;
+              padding:15px 18px;
+              line-height:1.6;
+              background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.836' height='12.732' viewBox='0 0 6.836 12.732'%3E%3Cg transform='translate(0 0)'%3E%3Cpath d='M183.876,5.718l-4.912-5.4a.962.962,0,0,0-1.424,1.294l4.324,4.757-4.324,4.756a.962.962,0,0,0,1.424,1.294l4.912-5.4a.962.962,0,0,0,0-1.294' transform='translate(-177.29 0.001)' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat right 20px center / 7px auto;
+
+              @media (min-width: $screen-size-pc) {
+                bottom:70px;
+                line-height:1.8;
+                font-size:20px;
+                border-radius:30px;
+              }
+
+              &:first-of-type {
+                left: 24px;
+                right:51%;
+
+                @media (min-width: $screen-size-pc) {
+                  left:100px;
+                }
+              }
+
+              &:last-of-type {
+                right: 24px;
+                left:51%;
+
+                @media (min-width: $screen-size-pc) {
+                  right:100px;
+                }
+              }
+
+              span {
+                display:block;
+              }
             }
           }
           
@@ -1467,6 +1510,12 @@ body {
                     }
                   }
                 }
+              }
+
+
+              a.banner {
+                display:block;
+                margin:30px 0 0;
               }
             }
           }
