@@ -2186,7 +2186,7 @@ body header .container button.main-menu {
     font-size: 0;
   }
   body nav#main-menu.allMenu div.menus > ul > li {
-    border-top: 1px solid #B3C4D5;
+    border-top: 1px solid #b3c4d5;
     padding: 20px 10px 20px 20px;
   }
   body nav#main-menu.allMenu div.menus > ul > li h3 {
@@ -2293,13 +2293,13 @@ body header .container button.main-menu {
     margin: 0 0 0 -105px;
     padding: 20px 20px 10px;
     background: #253039;
-    border: 1px solid #17171A;
+    border: 1px solid #17171a;
     border-radius: 10px;
   }
   body nav#main-menu.menu div.menus > ul > li.on ul li a {
     display: block;
     font-size: 15px;
-    color: #C7D6E5;
+    color: #c7d6e5;
     margin-bottom: 10px;
   }
   body nav#main-menu.menu div.menus > ul > li.on ul li a:hover, body nav#main-menu.menu div.menus > ul > li.on ul li a.active {
@@ -2315,7 +2315,7 @@ body header .container button.main-menu {
     right: 0;
     top: 100px;
     background: #fff;
-    border-top: 1px solid #B3C4D5;
+    border-top: 1px solid #b3c4d5;
   }
   body nav#main-menu.allMenu h2 {
     display: none;
@@ -2333,14 +2333,14 @@ body header .container button.main-menu {
     width: 150px;
     height: 300px;
     background: url(../images/img-menu.svg) no-repeat left top 30px/122px auto;
-    border-right: 1px solid #B3C4D5;
+    border-right: 1px solid #b3c4d5;
   }
   body nav#main-menu.allMenu div.menus > ul > li {
     display: inline-block;
     width: 175px;
     height: 300px;
     vertical-align: top;
-    border-right: 1px solid #B3C4D5;
+    border-right: 1px solid #b3c4d5;
   }
   body nav#main-menu.allMenu div.menus > ul > li:last-of-type {
     margin-right: 0;
@@ -2375,7 +2375,7 @@ body header .container button.main-menu {
   body nav#main-menu.allMenu div.menus > ul > li ul li a:hover, body nav#main-menu.allMenu div.menus > ul > li ul li a.active {
     padding-left: 30px;
     font-weight: 600;
-    color: #4572C2;
+    color: #4572c2;
   }
   body nav#main-menu.allMenu div.menus > ul > li ul li a:hover::before, body nav#main-menu.allMenu div.menus > ul > li ul li a.active::before {
     content: "";
@@ -2417,7 +2417,7 @@ body h4.sTitle {
 }
 
 body h4.sTitle u {
-  color: #5680CC;
+  color: #5680cc;
   text-decoration: none;
 }
 
@@ -2516,7 +2516,7 @@ body dl.form dd::before {
   top: 0;
   bottom: -1px;
   width: 72px;
-  background: #F1F3F8;
+  background: #f1f3f8;
   border-right: 1px solid #bbb;
   border-bottom: 1px solid #bbb;
 }
@@ -2553,7 +2553,7 @@ body dl.form dd p span {
 
 body dl.form dd p select {
   width: 100%;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   height: 38px;
   padding: 0 10px;
   color: #555555;
@@ -2568,7 +2568,7 @@ body dl.form dd p select {
 
 body dl.form dd p input {
   width: 100%;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   height: 38px;
   padding: 0 10px;
   font-size: 15px;
@@ -2581,18 +2581,18 @@ body dl.form dd p input {
 }
 
 body dl.form dd p input:-moz-read-only {
-  background: #F3F3F3;
+  background: #f3f3f3;
 }
 
 body dl.form dd p input:read-only {
-  background: #F3F3F3;
+  background: #f3f3f3;
 }
 
 body dl.form dd p button {
   font-size: 15px;
-  background: #505B6E;
+  background: #505b6e;
   color: #fff;
-  border: 1px solid #2E3D58;
+  border: 1px solid #2e3d58;
   height: 38px;
   border-radius: 4px;
   padding: 0 10px;
@@ -2610,7 +2610,7 @@ body dl.form dd p.address {
 
 body dl.form dd p.address button {
   font-size: 15px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   height: 38px;
   margin-right: 10px;
   width: 90px;
@@ -2690,7 +2690,7 @@ body dl.form dd p.file {
 
 body dl.form dd p.file button {
   font-size: 15px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   height: 38px;
   margin-left: 10px;
   width: 90px;
@@ -2705,7 +2705,7 @@ body dl.form dd p.file input {
 body dl.form2 {
   position: relative;
   border-top: 1px solid #222222;
-  border-bottom: 1px solid #AAAAAA;
+  border-bottom: 1px solid #aaaaaa;
   margin-bottom: 40px;
   padding: 10px 0;
   font-size: 0;
@@ -2786,7 +2786,7 @@ body dl.form2 dd p span {
 
 body dl.form2 dd p select {
   width: 100%;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   height: 42px;
   padding: 0 10px;
   color: #555555;
@@ -2801,7 +2801,7 @@ body dl.form2 dd p select {
 
 body dl.form2 dd p input {
   width: 100%;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   height: 42px;
   padding: 0 10px;
 }
@@ -2813,18 +2813,18 @@ body dl.form2 dd p input {
 }
 
 body dl.form2 dd p input:-moz-read-only {
-  background: #F3F3F3;
+  background: #f3f3f3;
 }
 
 body dl.form2 dd p input:read-only {
-  background: #F3F3F3;
+  background: #f3f3f3;
 }
 
 body dl.form2 dd p button {
   font-size: 15px;
-  background: #37599A;
+  background: #37599a;
   color: #fff;
-  border: 1px solid #2E3D58;
+  border: 1px solid #2e3d58;
   height: 42px;
   border-radius: 4px;
   padding: 0 10px;
@@ -2843,7 +2843,7 @@ body dl.form2 dd p.address {
 
 body dl.form2 dd p.address button {
   font-size: 15px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   height: 38px;
   margin-right: 10px;
   width: 90px;
@@ -2927,7 +2927,7 @@ body dl.form2 dd p.file {
 
 body dl.form2 dd p.file button {
   font-size: 15px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   height: 38px;
   margin-left: 10px;
   width: 90px;
@@ -2940,8 +2940,8 @@ body dl.form2 dd p.file input {
 }
 
 body div.infoBox {
-  border: 1px solid #BBBBBB;
-  background: #FCFCFC;
+  border: 1px solid #bbbbbb;
+  background: #fcfcfc;
   padding: 15px 15px 9px;
 }
 
@@ -3006,9 +3006,9 @@ body div.tableOutline table {
 }
 
 body div.tableOutline table thead tr th {
-  border-right: 1px solid #AAAAAA;
-  border-bottom: 1px solid #AAAAAA;
-  background: #D8D9DB;
+  border-right: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
+  background: #d8d9db;
   text-align: center;
   height: 38px;
   font-size: 16px;
@@ -3017,8 +3017,8 @@ body div.tableOutline table thead tr th {
 }
 
 body div.tableOutline table tbody tr td {
-  border-right: 1px solid #AAAAAA;
-  border-bottom: 1px solid #AAAAAA;
+  border-right: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
   text-align: center;
   height: 52px;
   font-size: 16px;
@@ -3036,7 +3036,7 @@ body div.tableOutline table tbody tr td.address span {
   white-space: nowrap;
 }
 
-body div.tableOutline table tbody tr td input[type=checkbox] {
+body div.tableOutline table tbody tr td input[type="checkbox"] {
   width: 20px;
   height: 20px;
   margin-right: 10px;
@@ -3048,17 +3048,17 @@ body div.tableOutline table tbody tr td button {
   height: 36px;
   border-radius: 4px;
   color: #fff;
-  background: #505B6E;
-  border: 1px solid #2E3D58;
+  background: #505b6e;
+  border: 1px solid #2e3d58;
 }
 
 body div.tableOutline table tbody tr:nth-child(even) {
-  background: #F4F6FC;
+  background: #f4f6fc;
 }
 
 body p.mobileAttention {
   font-size: 14px;
-  color: #5680CC;
+  color: #5680cc;
 }
 
 @media (min-width: 1200px) {
@@ -3261,8 +3261,8 @@ body div#content.sub {
 }
 
 body div#content.sub section.sub-header {
-  background: transparent -webkit-gradient(linear, left top, right top, from(#F8F9FB), to(#DDE7F9)) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(90deg, #F8F9FB 0%, #DDE7F9 100%) 0% 0% no-repeat padding-box;
+  background: transparent -webkit-gradient(linear, left top, right top, from(#f8f9fb), to(#dde7f9)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #f8f9fb 0%, #dde7f9 100%) 0% 0% no-repeat padding-box;
 }
 
 body div#content.sub section.sub-header div.container h3 {
@@ -3361,7 +3361,7 @@ body div#content.sub div.sub-contents aside {
   }
   body div#content.sub div.sub-contents aside nav ul.subMenu > li > a {
     display: block;
-    background: #5680CC;
+    background: #5680cc;
     color: #fff;
     line-height: 49px;
     border-bottom: 1px solid #fff;
@@ -3373,7 +3373,7 @@ body div#content.sub div.sub-contents aside {
     width: 100%;
     margin: 0;
     padding: 20px 0 0;
-    background: #F6F6F6;
+    background: #f6f6f6;
   }
   body div#content.sub div.sub-contents aside nav ul.subMenu > li ul li a {
     display: block;
@@ -3381,7 +3381,7 @@ body div#content.sub div.sub-contents aside {
     margin-bottom: 20px;
   }
   body div#content.sub div.sub-contents aside nav ul.subMenu > li ul li a:hover, body div#content.sub div.sub-contents aside nav ul.subMenu > li ul li a.active {
-    color: #5680CC;
+    color: #5680cc;
     font-weight: 600;
   }
   body div#content.sub div.sub-contents aside nav ul.subMenu > li ul li a:hover::before, body div#content.sub div.sub-contents aside nav ul.subMenu > li ul li a.active::before {
@@ -3418,8 +3418,8 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
 
 body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments ul.documents li {
   position: relative;
-  background: #F9F9F9;
-  border: 1px solid #BBBBBB;
+  background: #f9f9f9;
+  border: 1px solid #bbbbbb;
   margin-bottom: 10px;
   padding: 16px 10px;
   border-radius: 5px;
@@ -3431,16 +3431,16 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
     margin-bottom: 12px;
   }
   body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments ul.documents li.type01 {
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='30.689' height='34' viewBox='0 0 30.689 34'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect  width='30.689' height='34' fill='%23c3dae5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath  d='M29.323,0H8.534A1.366,1.366,0,0,0,7.169,1.364V6.928h-5.8A1.366,1.366,0,0,0,0,8.294v24.34A1.366,1.366,0,0,0,1.365,34H22.155a1.366,1.366,0,0,0,1.365-1.365V27.07h5.8A1.365,1.365,0,0,0,30.689,25.7V1.364A1.366,1.366,0,0,0,29.323,0M20.789,31.268H2.731V9.659H20.789Zm1.365-24.34H9.9V2.73H27.958V24.339H23.52V8.294a1.366,1.366,0,0,0-1.365-1.365' transform='translate(0 0.001)' fill='%23c3dae5'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #F9F9F9 left 20px center/31px auto;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='30.689' height='34' viewBox='0 0 30.689 34'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect  width='30.689' height='34' fill='%23c3dae5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath  d='M29.323,0H8.534A1.366,1.366,0,0,0,7.169,1.364V6.928h-5.8A1.366,1.366,0,0,0,0,8.294v24.34A1.366,1.366,0,0,0,1.365,34H22.155a1.366,1.366,0,0,0,1.365-1.365V27.07h5.8A1.365,1.365,0,0,0,30.689,25.7V1.364A1.366,1.366,0,0,0,29.323,0M20.789,31.268H2.731V9.659H20.789Zm1.365-24.34H9.9V2.73H27.958V24.339H23.52V8.294a1.366,1.366,0,0,0-1.365-1.365' transform='translate(0 0.001)' fill='%23c3dae5'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #f9f9f9 left 20px center/31px auto;
   }
   body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments ul.documents li.type02 {
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='32.073' height='32.065' viewBox='0 0 32.073 32.065'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='32.073' height='32.065' fill='%23c3dae5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath d='M31.528,17.02a1.287,1.287,0,0,0-1.173-.161l-1.634.581V1.287A1.287,1.287,0,0,0,27.434,0H4.639A1.287,1.287,0,0,0,3.352,1.287v16.18l-1.616-.6A1.286,1.286,0,0,0,0,18.072V30.778a1.287,1.287,0,0,0,1.287,1.287h29.5a1.287,1.287,0,0,0,1.287-1.287V18.072a1.287,1.287,0,0,0-.545-1.051M15.253,24.641a1.287,1.287,0,0,0,.88.007L29.5,19.9v9.6H2.574V19.924ZM5.926,2.574H26.147V18.355L15.711,22.066,5.926,18.425Z' transform='translate(0)' fill='%23c3dae5'/%3E%3Cpath d='M113.435,127.623a1.287,1.287,0,0,0,0-2.574h-8.07a1.287,1.287,0,0,0,0,2.574Z' transform='translate(-93.363 -112.175)' fill='%23c3dae5'/%3E%3Cpath  d='M105.365,70.1h8.07a1.287,1.287,0,0,0,0-2.574h-8.07a1.287,1.287,0,1,0,0,2.574' transform='translate(-93.363 -60.57)' fill='%23c3dae5'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #F9F9F9 left 20px center/32px auto;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='32.073' height='32.065' viewBox='0 0 32.073 32.065'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='32.073' height='32.065' fill='%23c3dae5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath d='M31.528,17.02a1.287,1.287,0,0,0-1.173-.161l-1.634.581V1.287A1.287,1.287,0,0,0,27.434,0H4.639A1.287,1.287,0,0,0,3.352,1.287v16.18l-1.616-.6A1.286,1.286,0,0,0,0,18.072V30.778a1.287,1.287,0,0,0,1.287,1.287h29.5a1.287,1.287,0,0,0,1.287-1.287V18.072a1.287,1.287,0,0,0-.545-1.051M15.253,24.641a1.287,1.287,0,0,0,.88.007L29.5,19.9v9.6H2.574V19.924ZM5.926,2.574H26.147V18.355L15.711,22.066,5.926,18.425Z' transform='translate(0)' fill='%23c3dae5'/%3E%3Cpath d='M113.435,127.623a1.287,1.287,0,0,0,0-2.574h-8.07a1.287,1.287,0,0,0,0,2.574Z' transform='translate(-93.363 -112.175)' fill='%23c3dae5'/%3E%3Cpath  d='M105.365,70.1h8.07a1.287,1.287,0,0,0,0-2.574h-8.07a1.287,1.287,0,1,0,0,2.574' transform='translate(-93.363 -60.57)' fill='%23c3dae5'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #f9f9f9 left 20px center/32px auto;
   }
   body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments ul.documents li.type03 {
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='30.907' height='33.727' viewBox='0 0 30.907 33.727'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='30.907' height='33.727' fill='%23c3dae5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath d='M26.734,0H4.174A4.179,4.179,0,0,0,0,4.174v25.38a4.179,4.179,0,0,0,4.174,4.174h22.56a4.178,4.178,0,0,0,4.174-4.174V4.174A4.178,4.178,0,0,0,26.734,0M28.2,29.553a1.468,1.468,0,0,1-1.466,1.467H4.174a1.468,1.468,0,0,1-1.467-1.467V4.174A1.468,1.468,0,0,1,4.174,2.707h22.56A1.468,1.468,0,0,1,28.2,4.174Z' fill='%23c3dae5'/%3E%3Cpath d='M83.385,79.684c.128-.107.252-.218.372-.337a5.4,5.4,0,1,0-7.258.332,7.608,7.608,0,0,0-4.177,6.8v.756a1.354,1.354,0,0,0,1.354,1.354H86.211a1.354,1.354,0,0,0,1.354-1.354v-.755a7.624,7.624,0,0,0-4.18-6.792m-3.442-6.836a2.686,2.686,0,1,1-2.686,2.685,2.689,2.689,0,0,1,2.686-2.685m-4.875,13.03a4.911,4.911,0,0,1,9.749,0Z' transform='translate(-64.49 -62.546)' fill='%23c3dae5'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #F9F9F9 left 20px center/31px auto;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='30.907' height='33.727' viewBox='0 0 30.907 33.727'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='30.907' height='33.727' fill='%23c3dae5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath d='M26.734,0H4.174A4.179,4.179,0,0,0,0,4.174v25.38a4.179,4.179,0,0,0,4.174,4.174h22.56a4.178,4.178,0,0,0,4.174-4.174V4.174A4.178,4.178,0,0,0,26.734,0M28.2,29.553a1.468,1.468,0,0,1-1.466,1.467H4.174a1.468,1.468,0,0,1-1.467-1.467V4.174A1.468,1.468,0,0,1,4.174,2.707h22.56A1.468,1.468,0,0,1,28.2,4.174Z' fill='%23c3dae5'/%3E%3Cpath d='M83.385,79.684c.128-.107.252-.218.372-.337a5.4,5.4,0,1,0-7.258.332,7.608,7.608,0,0,0-4.177,6.8v.756a1.354,1.354,0,0,0,1.354,1.354H86.211a1.354,1.354,0,0,0,1.354-1.354v-.755a7.624,7.624,0,0,0-4.18-6.792m-3.442-6.836a2.686,2.686,0,1,1-2.686,2.685,2.689,2.689,0,0,1,2.686-2.685m-4.875,13.03a4.911,4.911,0,0,1,9.749,0Z' transform='translate(-64.49 -62.546)' fill='%23c3dae5'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #f9f9f9 left 20px center/31px auto;
   }
   body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments ul.documents li.type04 {
-    background: url("data:image/svg+xml,%3Csvg  xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='32.715' height='26.372' viewBox='0 0 32.715 26.372'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='32.715' height='26.372' fill='%23c3dae5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath d='M30.422,18.724a7.851,7.851,0,0,0-2.111-1.5,5.525,5.525,0,1,0-6.891,0,7.826,7.826,0,0,0-1.3.809,10.979,10.979,0,0,0-5.094-4.246,7.5,7.5,0,1,0-8.213,0A10.936,10.936,0,0,0,0,23.9v1.159a1.314,1.314,0,0,0,1.313,1.313H31.4a1.313,1.313,0,0,0,1.313-1.313v-.788a7.79,7.79,0,0,0-2.293-5.546M24.867,10.01a2.9,2.9,0,1,1-2.9,2.9,2.9,2.9,0,0,1,2.9-2.9M21.447,20.327a5.219,5.219,0,0,1,8.616,3.417H21.839a10.862,10.862,0,0,0-.561-3.3,1.361,1.361,0,0,0,.169-.12M10.924,2.627A4.879,4.879,0,1,1,6.045,7.5a4.849,4.849,0,0,1,4.879-4.878m0,12.976a8.3,8.3,0,0,1,8.289,8.142H2.634A8.3,8.3,0,0,1,10.924,15.6' transform='translate(0 0)' fill='%23c3dae5'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #F9F9F9 left 20px center/33px auto;
+    background: url("data:image/svg+xml,%3Csvg  xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='32.715' height='26.372' viewBox='0 0 32.715 26.372'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='32.715' height='26.372' fill='%23c3dae5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg  clip-path='url(%23clip-path)'%3E%3Cpath d='M30.422,18.724a7.851,7.851,0,0,0-2.111-1.5,5.525,5.525,0,1,0-6.891,0,7.826,7.826,0,0,0-1.3.809,10.979,10.979,0,0,0-5.094-4.246,7.5,7.5,0,1,0-8.213,0A10.936,10.936,0,0,0,0,23.9v1.159a1.314,1.314,0,0,0,1.313,1.313H31.4a1.313,1.313,0,0,0,1.313-1.313v-.788a7.79,7.79,0,0,0-2.293-5.546M24.867,10.01a2.9,2.9,0,1,1-2.9,2.9,2.9,2.9,0,0,1,2.9-2.9M21.447,20.327a5.219,5.219,0,0,1,8.616,3.417H21.839a10.862,10.862,0,0,0-.561-3.3,1.361,1.361,0,0,0,.169-.12M10.924,2.627A4.879,4.879,0,1,1,6.045,7.5a4.849,4.849,0,0,1,4.879-4.878m0,12.976a8.3,8.3,0,0,1,8.289,8.142H2.634A8.3,8.3,0,0,1,10.924,15.6' transform='translate(0 0)' fill='%23c3dae5'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #f9f9f9 left 20px center/33px auto;
   }
 }
 
@@ -3488,9 +3488,9 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
   line-height: 34px;
   text-align: center;
   color: #fff;
-  background: #4D9AB5;
+  background: #4d9ab5;
   border-radius: 4px;
-  border-bottom: 4px solid #538D9F;
+  border-bottom: 4px solid #538d9f;
 }
 
 @media (min-width: 1200px) {
@@ -3549,7 +3549,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
 body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments dl.manual dd {
   margin: 0 0 30px 20px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #BBBBBB;
+  border-bottom: 1px solid #bbbbbb;
 }
 
 @media (min-width: 1200px) {
@@ -3604,7 +3604,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
   border-radius: 6px;
   -webkit-box-shadow: 0px 2px 6px #00000015;
           box-shadow: 0px 2px 6px #00000015;
-  background: #37599A;
+  background: #37599a;
 }
 
 @media (min-width: 1200px) {
@@ -3639,7 +3639,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low {
 
 body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low li {
   position: relative;
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   margin-bottom: 20px;
   padding: 16px 10px;
   border-radius: 5px;
@@ -3690,9 +3690,9 @@ body div#content.sub div.sub-contents div.contentsOutline section.intro ul.low l
   line-height: 34px;
   text-align: center;
   color: #fff;
-  background: #4D9AB5;
+  background: #4d9ab5;
   border-radius: 4px;
-  border-bottom: 4px solid #538D9F;
+  border-bottom: 4px solid #538d9f;
 }
 
 @media (min-width: 1200px) {
@@ -3707,7 +3707,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.history dl dt 
   position: relative;
   font-size: 26px;
   font-weight: 800;
-  border-bottom: 1px solid #AAAAAA;
+  border-bottom: 1px solid #aaaaaa;
   padding: 18px 0;
   cursor: pointer;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15.001' viewBox='0 0 15 15.001'%3E%3Cpath d='M13.39,5.89H9.11V1.61a1.61,1.61,0,0,0-3.22,0V5.89H1.61a1.61,1.61,0,1,0,0,3.22H5.89v4.28a1.61,1.61,0,0,0,3.22,0V9.111h4.28a1.61,1.61,0,0,0,0-3.22' fill='%235680cc'/%3E%3C/svg%3E%0A") no-repeat right 20px center/15px auto;
@@ -3728,7 +3728,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.history dl dt:
   left: 0;
   height: 4px;
   width: 170px;
-  background: #5680CC;
+  background: #5680cc;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.history dl dt.on {
@@ -3887,7 +3887,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.support ul.det
 
 body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5 small u {
   text-decoration: none;
-  color: #FF660D;
+  color: #ff660d;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type01::before {
@@ -3983,9 +3983,9 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.inf
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list {
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   border-top-color: #222222;
-  background: #F6F8FB;
+  background: #f6f8fb;
   padding: 10px;
   margin: 0 0 40px;
   text-align: center;
@@ -4002,7 +4002,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.li
   padding: 50px 0;
   text-decoration: none;
   font-size: 18px;
-  color: #8DA5C9;
+  color: #8da5c9;
 }
 
 @media (min-width: 1200px) {
@@ -4107,15 +4107,15 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.li
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li span.type01 {
-  color: #C7638C;
+  color: #c7638c;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li span.step-no {
-  color: #FF660D;
+  color: #ff660d;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li ul li span.step {
-  color: #37599A;
+  color: #37599a;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li button {
@@ -4124,9 +4124,9 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.li
   top: 14px;
   font-size: 15px;
   font-weight: 500;
-  color: #37599A;
-  background: #ECECEC;
-  border: 1px solid #37599A;
+  color: #37599a;
+  background: #ececec;
+  border: 1px solid #37599a;
   width: 90px;
   height: 48px;
   border-radius: 4px;
@@ -4134,8 +4134,8 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.li
 
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list > ul > li button.re {
   color: #fff;
-  background: #37599A;
-  border: 1px solid #25437E;
+  background: #37599a;
+  border: 1px solid #25437e;
 }
 
 @media (min-width: 1200px) {
@@ -4156,7 +4156,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.bt
   border-radius: 6px;
   -webkit-box-shadow: 0px 2px 6px #00000015;
           box-shadow: 0px 2px 6px #00000015;
-  background: #37599A;
+  background: #37599a;
 }
 
 @media (min-width: 1200px) {
@@ -4179,8 +4179,8 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.bt
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.certification {
-  border: 1px solid #BBBBBB;
-  background: #F6F8FB;
+  border: 1px solid #bbbbbb;
+  background: #f6f8fb;
   padding: 28px;
   text-align: center;
 }
@@ -4225,7 +4225,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.certification 
   border-radius: 6px;
   -webkit-box-shadow: 0px 2px 6px #00000015;
           box-shadow: 0px 2px 6px #00000015;
-  background: #37599A;
+  background: #37599a;
   border: none;
 }
 
@@ -4249,7 +4249,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.certification 
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree {
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   margin-bottom: 20px;
 }
 
@@ -4271,7 +4271,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.receiptForm di
 
 body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.head {
   padding: 14px;
-  border-bottom: 1px solid #BBBBBB;
+  border-bottom: 1px solid #bbbbbb;
 }
 
 @media (min-width: 1200px) {
@@ -4340,7 +4340,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.receiptForm di
 
 body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.agree div.text {
   height: 180px;
-  background: #F9F9F9;
+  background: #f9f9f9;
   padding: 10px;
   overflow-y: auto;
   line-height: 1.6;
@@ -4370,8 +4370,8 @@ body div#content.sub div.sub-contents div.contentsOutline section.receiptForm di
   line-height: 64px;
   font-size: 18px;
   color: #555555;
-  background: #F3F3F3;
-  border: 1px solid #AAAAAA;
+  background: #f3f3f3;
+  border: 1px solid #aaaaaa;
   font-weight: 600;
   border-radius: 6px;
 }
@@ -4385,7 +4385,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.receiptForm di
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a.main {
-  background: #37599A;
+  background: #37599a;
   color: #fff;
 }
 
@@ -4502,13 +4502,13 @@ body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul
   list-style: none;
   margin: 0;
   padding: 0;
-  border-top: 1px solid #CCCCCC;
+  border-top: 1px solid #cccccc;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li {
   position: relative;
   padding: 15px 15px 15px 56px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   border-top: none;
 }
 
@@ -4551,7 +4551,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul
 body div#content.sub div.sub-contents div.contentsOutline section.inquiryList ul.list > li strong i {
   font-style: normal;
   font-size: 15px;
-  color: #5680CC;
+  color: #5680cc;
 }
 
 @media (min-width: 1200px) {
@@ -4614,7 +4614,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.inquiryList a.
   color: #fff;
   font-weight: 600;
   font-size: 18px;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24.164' height='23.461' viewBox='0 0 24.164 23.461'%3E%3Cpath d='M19.709,41.14v6.449H4.455V41.14H0V52.364H24.164V41.14Z' transform='translate(0 -28.903)' fill='%23719df2'/%3E%3Cpath  d='M17.032,0V8.993h-3.88l7.631,9.243,7.631-9.243h-3.88V0Z' transform='translate(-8.702 0)' fill='%23719df2'/%3E%3C/svg%3E%0A") no-repeat #37599A left 50px center/24.2px auto;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24.164' height='23.461' viewBox='0 0 24.164 23.461'%3E%3Cpath d='M19.709,41.14v6.449H4.455V41.14H0V52.364H24.164V41.14Z' transform='translate(0 -28.903)' fill='%23719df2'/%3E%3Cpath  d='M17.032,0V8.993h-3.88l7.631,9.243,7.631-9.243h-3.88V0Z' transform='translate(-8.702 0)' fill='%23719df2'/%3E%3C/svg%3E%0A") no-repeat #37599a left 50px center/24.2px auto;
   -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
 }
@@ -4631,7 +4631,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.inquiryList a.
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.board-info {
-  background: #F5F7FC;
+  background: #f5f7fc;
   padding: 25px 0;
   margin: 25px 0;
 }
@@ -4644,7 +4644,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-info {
 
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.board-info {
-    background: #F5F7FC;
+    background: #f5f7fc;
     padding: 35px;
     position: relative;
   }
@@ -4654,7 +4654,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-info p {
   position: relative;
   padding: 0 0 0 14px;
   margin: 0 0 10px;
-  color: #3E588D;
+  color: #3e588d;
   font-size: 14px;
   word-break: keep-all;
 }
@@ -4998,7 +4998,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-list ul.
 
 body div#content.sub div.sub-contents div.contentsOutline section.board-list ul.list li.notice a p.num u {
   display: block;
-  background: #5680CC;
+  background: #5680cc;
   width: 50px;
   border-radius: 6px;
   color: #fff;
@@ -5346,7 +5346,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-list2 ul
 
 body div#content.sub div.sub-contents div.contentsOutline section.board-list2 ul.list li.notice a p.num u {
   display: block;
-  background: #5680CC;
+  background: #5680cc;
   width: 50px;
   border-radius: 6px;
   color: #fff;
@@ -5426,7 +5426,8 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-view div
     border: none;
   }
   body div#content.sub div.sub-contents div.contentsOutline section.board-view div.board-box ul.info li:first-child {
-    width: 360px;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
   }
 }
 
@@ -6105,7 +6106,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.card-list ul l
   display: inline-block;
   width: calc((100% - 18px) / 2);
   height: 204px;
-  border: 1px solid #AAAAAA;
+  border: 1px solid #aaaaaa;
   font-size: 16px;
   text-align: center;
   padding: 20px;
@@ -6171,11 +6172,11 @@ body div#content.sub div.sub-contents div.contentsOutline section.card-list ul l
 body div#content.sub div.sub-contents div.contentsOutline section.card-list ul li a {
   display: block;
   margin: 0 auto;
-  background: #37599A;
+  background: #37599a;
   border-radius: 4px;
   color: #fff;
   line-height: 34px;
-  border-bottom: 5px solid #253A61;
+  border-bottom: 5px solid #253a61;
   font-size: 14px;
 }
 
@@ -6196,7 +6197,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.card-list2 ul 
   display: inline-block;
   width: calc((100% - 18px) / 2);
   height: 204px;
-  border: 1px solid #AAAAAA;
+  border: 1px solid #aaaaaa;
   font-size: 16px;
   text-align: center;
   padding: 20px;
@@ -6259,11 +6260,11 @@ body div#content.sub div.sub-contents div.contentsOutline section.card-list2 ul 
 body div#content.sub div.sub-contents div.contentsOutline section.card-list2 ul li a {
   display: block;
   margin: 0 auto;
-  background: #37599A;
+  background: #37599a;
   border-radius: 4px;
   color: #fff;
   line-height: 34px;
-  border-bottom: 5px solid #253A61;
+  border-bottom: 5px solid #253a61;
   font-size: 14px;
 }
 
@@ -6342,7 +6343,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.detail-content
   position: absolute;
   left: 0;
   top: 0;
-  color: #5680CC;
+  color: #5680cc;
   padding-right: 6px;
 }
 
@@ -6361,7 +6362,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.detail-content
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.detail-contents h6.red {
-  color: #FF6600;
+  color: #ff6600;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.detail-contents hr {
@@ -6404,7 +6405,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.detail-content
 
 body div#content.sub div.sub-contents div.contentsOutline section.detail-contents p.txt u {
   text-decoration: none;
-  color: #FF6600;
+  color: #ff6600;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.detail-contents p.txt span {
@@ -6511,7 +6512,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.detail-content
 body div#content.sub div.sub-contents div.contentsOutline section.detail-contents div.box {
   position: relative;
   border-radius: 20px;
-  background: #F6F6F6;
+  background: #f6f6f6;
   padding: 26px 26px 26px 62px;
   margin: 0 0 40px;
 }
@@ -6558,7 +6559,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.detail-content
   text-align: center;
   border-radius: 50%;
   font-style: normal;
-  background: #5680CC;
+  background: #5680cc;
   font-size: 16px;
   color: #fff;
   font-weight: 600;
@@ -6588,15 +6589,15 @@ body div#content.sub div.sub-contents div.contentsOutline section.detail-content
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.detail-contents div.box strong.red {
-  color: #FF1A1A;
+  color: #ff1a1a;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.detail-contents div.box strong span {
-  color: #5680CC;
+  color: #5680cc;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.detail-contents div.box p {
-  color: #5680CC;
+  color: #5680cc;
   margin: 15px 0 10px;
   font-size: 16px;
 }
@@ -6628,7 +6629,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.detail-content
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.detail-contents div.box ul li.red {
-  color: #FF6600;
+  color: #ff6600;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.detail-contents div.box ul li::before {
@@ -6755,7 +6756,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-info 
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.memorial-info button:hover, body div#content.sub div.sub-contents div.contentsOutline section.memorial-info button:active {
-  background: #37599A;
+  background: #37599a;
   border-color: transparent;
   color: #fff;
 }
@@ -6848,7 +6849,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-text 
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.memorial-text div.text {
-  border: 1px solid #BEBEBE;
+  border: 1px solid #bebebe;
   border-radius: 6px;
   padding: 25px 25px 25px 64px;
   background: url("../images/memorial-img.svg") no-repeat left 14px center/40px auto;
@@ -6865,7 +6866,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-text 
 body div#content.sub div.sub-contents div.contentsOutline section.memorial-text div.text strong {
   display: block;
   font-size: 18px;
-  color: #37599A;
+  color: #37599a;
   margin: 0 0 15px;
 }
 
@@ -6902,7 +6903,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-text 
 
 body div#content.sub div.sub-contents div.contentsOutline section.memorial-text div.buttons a {
   display: inline-block;
-  background: #37599A;
+  background: #37599a;
   color: #fff;
   line-height: 42px;
   padding: 0 20px;
@@ -6937,9 +6938,9 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-list 
 
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.memorial-list ul.list li a {
-    padding: 25px 0 20px 60px;
+    padding: 35px 0 25px 60px;
     background-size: 32px auto;
-    background-position: left 15px top 20px;
+    background-position: left 20px top 30px;
   }
 }
 
@@ -6951,12 +6952,13 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-list 
 
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.memorial-list ul.list li a h4 {
+    vertical-align: top;
     position: relative;
     display: inline-block;
     font-size: 18px;
-    width: 555px;
-    margin: 0;
-    padding: 0 0 0 10px;
+    width: 645px;
+    margin: 10px 0 0;
+    padding: 0;
   }
 }
 
@@ -6970,6 +6972,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-list 
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.memorial-list ul.list li a p {
     display: inline-block;
+    vertical-align: top;
     font-size: 16px;
   }
 }
@@ -6986,10 +6989,16 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-list 
   }
 }
 
+body div#content.sub div.sub-contents div.contentsOutline section.memorial-list ul.list li a p.name {
+  color: #37599a;
+}
+
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.memorial-list ul.list li a p.name {
-    text-align: center;
-    width: 90px;
+    position: absolute;
+    left: 140px;
+    top: 20px;
+    width: 645px;
   }
 }
 
@@ -7029,7 +7038,7 @@ body div#content.pop div.container h2.top {
 }
 
 body div#content.pop div.container div.agree {
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   margin-bottom: 20px;
 }
 
@@ -7051,7 +7060,7 @@ body div#content.pop div.container div.agree:last-of-type {
 
 body div#content.pop div.container div.agree div.head {
   padding: 14px;
-  border-bottom: 1px solid #BBBBBB;
+  border-bottom: 1px solid #bbbbbb;
 }
 
 @media (min-width: 1200px) {
@@ -7120,7 +7129,7 @@ body div#content.pop div.container div.agree div.head div.check input:checked + 
 
 body div#content.pop div.container div.agree div.text {
   height: 180px;
-  background: #F9F9F9;
+  background: #f9f9f9;
   padding: 10px;
   overflow-y: auto;
   line-height: 1.6;
@@ -7154,7 +7163,7 @@ body div#content.pop div.container div.linkSet p {
   position: relative;
   vertical-align: top;
   margin: 0;
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   width: 100%;
   height: 330px;
   text-align: center;
@@ -7187,7 +7196,7 @@ body div#content.pop div.container div.linkSet p strong {
   display: block;
   font-size: 20px;
   font-weight: 600;
-  color: #37599A;
+  color: #37599a;
 }
 
 @media (min-width: 1200px) {
@@ -7210,8 +7219,8 @@ body div#content.pop div.container div.linkSet p a {
   display: block;
   width: 110px;
   line-height: 38px;
-  background: #505B6E;
-  border: 1px solid #2E3D58;
+  background: #505b6e;
+  border: 1px solid #2e3d58;
   margin: 18px auto 0;
   border-radius: 4px;
   color: #fff;
@@ -7273,7 +7282,7 @@ body div#content.pop div.container div.linkSet p.phone::before {
 }
 
 body div#content.pop div.container div.linkSet p.ipin {
-  background: #F5F6FC;
+  background: #f5f6fc;
 }
 
 body div#content.pop div.container div.linkSet p.ipin::before {
@@ -7317,7 +7326,7 @@ body div.layerPop div.outline {
 
 body div.layerPop div.outline div.head {
   height: 44px;
-  background: #282E3D;
+  background: #282e3d;
   border-bottom: 1px solid #303339;
 }
 
@@ -7334,7 +7343,7 @@ body div.layerPop div.outline div.head button.close {
   height: 44px;
   background: transparent;
   color: #fff;
-  border-left: 1px solid #9298AB;
+  border-left: 1px solid #9298ab;
   padding: 0 20px 0 34px;
   font-size: 15px;
 }
@@ -7386,8 +7395,8 @@ body div.layerPop div.outline div.inline div.btns button {
   width: 120px;
   height: 56px;
   border-radius: 6px;
-  border: 1px solid #AAAAAA;
-  background: #F3F3F3;
+  border: 1px solid #aaaaaa;
+  background: #f3f3f3;
   font-size: 17px;
   font-weight: 600;
   color: #555555;
@@ -7407,12 +7416,12 @@ body div.layerPop div.outline div.inline div.btns button {
 body div.layerPop div.outline div.inline div.btns button.main {
   color: #fff;
   border-color: transparent;
-  background: #37599A;
+  background: #37599a;
 }
 
 body footer#footer {
   text-align: center;
-  background: #282D33;
+  background: #282d33;
   line-height: 50px;
 }
 
@@ -7473,7 +7482,7 @@ body footer#footer div.container address {
   body footer#footer div.container address {
     display: block;
     font-size: 13px;
-    color: #CCCCCC;
+    color: #cccccc;
     font-style: normal;
   }
   body footer#footer div.container address p {
@@ -7486,7 +7495,7 @@ body footer#footer div.container address {
 
 body footer#footer div.container p.copyright {
   font-size: 12px;
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
 @media (min-width: 1200px) {
