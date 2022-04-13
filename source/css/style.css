@@ -2436,26 +2436,6 @@ body h4.sTitle div.check input {
   vertical-align: bottom;
 }
 
-body p.same {
-  display: block;
-  background: #eee;
-  border-top: 1px solid #222;
-  padding: 20px;
-  font-size: 14px;
-}
-
-body p.same input {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
-}
-
-body p.same label {
-  display: inline-block;
-  vertical-align: top;
-  line-height: 20px;
-}
-
 body dl.form {
   position: relative;
   border: 1px solid #bbb;
@@ -2700,6 +2680,25 @@ body dl.form dd p.file input {
   font-size: 15px;
   text-align: center;
   width: calc(100% - 100px);
+}
+
+body dl.form dd p.same {
+  text-align: left;
+  padding: 10px 0 0;
+  font-size: 14px;
+}
+
+body dl.form dd p.same input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+body dl.form dd p.same label {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+  font-weight: 600;
 }
 
 body dl.form2 {
