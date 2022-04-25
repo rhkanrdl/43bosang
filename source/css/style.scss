@@ -444,6 +444,19 @@ body {
       text-decoration: none;
     }
 
+    div.button {
+      float:right;
+
+      button {
+        border:none;
+        padding:10px;
+        font-size:16px;
+        border-radius:5px;
+        color:#fff;
+        background:#333;
+      }
+    }
+
     div.check {
       float: right;
       padding-top: 4px;
@@ -457,6 +470,10 @@ body {
         margin-right: 6px;
         vertical-align: bottom;
       }
+    }
+
+    div.button {
+      
     }
   }
 
@@ -703,7 +720,7 @@ body {
           display: inline-block;
           vertical-align: top;
           line-height: 20px;
-          font-weight:600;
+          font-weight:6000;
         }
       }
 
@@ -2353,6 +2370,11 @@ body {
 
                   &.main {
                     background: #37599a;
+                    color: #fff;
+                  }
+
+                  &.sub {
+                    background: #505b6e;
                     color: #fff;
                   }
 
@@ -5147,6 +5169,22 @@ body {
         div.tableOutline {
           table {
             min-width: 720px;
+
+            input.pop-check {
+              display:none;
+            }
+
+            input.pop-check + label {
+              display:block;
+              background:#dde7f9;
+              padding:5px 10px;
+              border-radius:5px;
+            }
+
+            input.pop-check:checked + label {
+              background:#253039;
+              color:#fff;
+            }
           }
         }
 

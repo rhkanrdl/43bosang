@@ -2421,6 +2421,19 @@ body h4.sTitle u {
   text-decoration: none;
 }
 
+body h4.sTitle div.button {
+  float: right;
+}
+
+body h4.sTitle div.button button {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  background: #333;
+}
+
 body h4.sTitle div.check {
   float: right;
   padding-top: 4px;
@@ -2698,7 +2711,7 @@ body dl.form dd p.same label {
   display: inline-block;
   vertical-align: top;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 6000;
 }
 
 body dl.form2 {
@@ -4385,6 +4398,11 @@ body div#content.sub div.sub-contents div.contentsOutline section.receiptForm di
 
 body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a.main {
   background: #37599a;
+  color: #fff;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a.sub {
+  background: #505b6e;
   color: #fff;
 }
 
@@ -7383,6 +7401,22 @@ body div.layerPop div.outline div.inline {
 
 body div.layerPop div.outline div.inline div.tableOutline table {
   min-width: 720px;
+}
+
+body div.layerPop div.outline div.inline div.tableOutline table input.pop-check {
+  display: none;
+}
+
+body div.layerPop div.outline div.inline div.tableOutline table input.pop-check + label {
+  display: block;
+  background: #dde7f9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+body div.layerPop div.outline div.inline div.tableOutline table input.pop-check:checked + label {
+  background: #253039;
+  color: #fff;
 }
 
 body div.layerPop div.outline div.inline div.btns {

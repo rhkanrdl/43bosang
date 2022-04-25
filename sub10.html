@@ -256,7 +256,14 @@
 
 
 
-                        <h4 class="sTitle">발급대상자 / 수령자 정보</h4>
+                        <h4 class="sTitle">
+                            발급대상자 / 수령자 정보
+
+                            <div class="button">
+                                <button>삭제</button>
+                            </div>
+                        
+                        </h4>
 
 
 
@@ -381,6 +388,7 @@
 
                         <div class="btns">
                             <a href="">취소</a>
+                            <a class="sub" href="">조회</a>
                             <a class="main" href="">신청하기</a>
                         </div>
 
@@ -426,7 +434,7 @@
                                     <td>
                                         1
                                     </td>
-                                    <td><button>선택</button></td>
+                                    <td><input id="pop-check01" name="pop-check" class="pop-check" type="radio"><label for="pop-check01">선택</label></td>
                                     <td>희생자</td>
                                     <td>홍길동</td>
                                     <td>2019.05.13</td>
@@ -438,7 +446,7 @@
                                     <td>
                                         2
                                     </td>
-                                    <td><button>선택</button></td>
+                                    <td><input id="pop-check02" name="pop-check" class="pop-check" type="radio"><label for="pop-check02">선택</label></td>
                                     <td>유족</td>
                                     <td>홍길동</td>
                                     <td>2019.05.13</td>
@@ -448,6 +456,11 @@
                                 </tr>
                             </tbody>
                         </table>
+
+                        <div class="btns">
+                            <button>취소</button>
+                            <button class="main">선택완료</button>
+                        </div>
                     </div>
                     <p class="mobileAttention">* 좌우로 움직이세요.</p>
 
