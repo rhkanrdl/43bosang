@@ -256,135 +256,286 @@
 
 
 
-                        <h4 class="sTitle">
-                            발급대상자 / 수령자 정보
-
-                            <div class="button">
-                                <button>삭제</button>
-                            </div>
-                        
-                        </h4>
 
 
 
+                        <div class="form-outline">
 
-                        <dl class="form">
-                            <dt>발급구분</dt>
-                            <dd>
-                                <p class="radio">
+                            <h4 class="sTitle">
+                                발급대상자 / 수령자 정보
 
-                                    <input name="type" id="type01" type="radio">
-                                    <label for="type01">신규</label>
-
-                                    <input name="type" id="type02" type="radio">
-                                    <label for="type02">재발급</label>
-                                </p>
-                            </dd>
+                                <div class="button">
+                                    <button>삭제</button>
+                                </div>
                             
-                            <dt class="half"><span>발급</span> 대상자명</dt>
-                            <dd class="half">
-                                <p>
-                                    <input type="text" readonly>
-                                </p>
-                            </dd>
+                            </h4>
+
+
+
+
+                            <dl class="form">
+                                <dt>발급구분</dt>
+                                <dd>
+                                    <p class="radio">
+
+                                        <input name="type" id="type01" type="radio">
+                                        <label for="type01">신규</label>
+
+                                        <input name="type" id="type02" type="radio">
+                                        <label for="type02">재발급</label>
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half"><span>발급</span> 대상자명</dt>
+                                <dd class="half">
+                                    <p>
+                                        <input type="text" readonly>
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half">발급유형</dt>
+                                <dd class="half">
+                                    <p>
+                                        <input type="text" readonly placeholder="희생자증">
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half">증번호</dt>
+                                <dd class="half">
+                                    <p>
+                                        <input type="text" readonly>
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half">생년월일</dt>
+                                <dd class="half">
+                                    <p>
+                                        <input type="text" readonly>
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half">연락처</dt>
+                                <dd class="half">
+                                    <p>
+                                        <input type="text">
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half">성별</dt>
+                                <dd class="half">
+                                    <p>
+                                        <select>
+                                            <option>선택</option>
+                                        </select>
+                                    </p>
+                                </dd>
+                                
+                                
+                                <dt><span>수령지</span> 주소</dt>
+                                <dd>
                             
-                            <dt class="half">발급유형</dt>
-                            <dd class="half">
-                                <p>
-                                    <input type="text" readonly placeholder="희생자증">
-                                </p>
-                            </dd>
+                                    <p class="same">
+                                        <input id="same" type="checkbox">
+                                        <label for="same">신청자 정보와 동일</label>
+                                    </p>
+            
+                                    <p>
+                                        <select>
+                                            <option>국내외 선택</option>
+                                        </select>
+                                    </p>
+                                    <p class="address">
+                                        <button>주소검색</button>
+                                        <input type="text" readonly placeholder="우편번호">
+                                    </p>
+                                    <p>
+                                        <input type="text">
+                                    </p>
+                                    <p>
+                                        <input type="text" placeholder="상세 주소를 입력하세요">
+                                    </p>
+                                </dd>
+                            </dl>
+
+
+                            <h4 class="sTitle">첨부 및 증빙서류</h4>
+
+                            <dl class="form">
+
+                                <dt>결정통지서</dt>
+                                <dd>
+                                    <p class="file">
+
+                                        <input type="text">
+                                        <button>첨부하기</button>
+                                    </p>
+                                </dd>
+
+                                <dt><span>주민등록</span> 등/초본</dt>
+                                <dd>
+                                    <p class="file">
+
+                                        <input type="text">
+                                        <button>첨부하기</button>
+                                    </p>
+                                </dd>
+
+                                <dt><span>발급대상자</span> 사진</dt>
+                                <dd>
+                                    <p class="file">
+
+                                        <input type="text">
+                                        <button>첨부하기</button>
+                                    </p>
+                                </dd>
+                                
+                            </dl>
+
+                        </div>
+
+
+
+
+
+
+                        <div class="form-outline">
+
+                            <h4 class="sTitle">
+                                발급대상자 / 수령자 정보
+
+                                <div class="button">
+                                    <button>삭제</button>
+                                </div>
                             
-                            <dt class="half">증번호</dt>
-                            <dd class="half">
-                                <p>
-                                    <input type="text" readonly>
-                                </p>
-                            </dd>
+                            </h4>
+
+
+
+
+                            <dl class="form">
+                                <dt>발급구분</dt>
+                                <dd>
+                                    <p class="radio">
+
+                                        <input name="type" id="type01" type="radio">
+                                        <label for="type01">신규</label>
+
+                                        <input name="type" id="type02" type="radio">
+                                        <label for="type02">재발급</label>
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half"><span>발급</span> 대상자명</dt>
+                                <dd class="half">
+                                    <p>
+                                        <input type="text" readonly>
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half">발급유형</dt>
+                                <dd class="half">
+                                    <p>
+                                        <input type="text" readonly placeholder="희생자증">
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half">증번호</dt>
+                                <dd class="half">
+                                    <p>
+                                        <input type="text" readonly>
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half">생년월일</dt>
+                                <dd class="half">
+                                    <p>
+                                        <input type="text" readonly>
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half">연락처</dt>
+                                <dd class="half">
+                                    <p>
+                                        <input type="text">
+                                    </p>
+                                </dd>
+                                
+                                <dt class="half">성별</dt>
+                                <dd class="half">
+                                    <p>
+                                        <select>
+                                            <option>선택</option>
+                                        </select>
+                                    </p>
+                                </dd>
+                                
+                                
+                                <dt><span>수령지</span> 주소</dt>
+                                <dd>
                             
-                            <dt class="half">생년월일</dt>
-                            <dd class="half">
-                                <p>
-                                    <input type="text" readonly>
-                                </p>
-                            </dd>
-                            
-                            <dt class="half">연락처</dt>
-                            <dd class="half">
-                                <p>
-                                    <input type="text">
-                                </p>
-                            </dd>
-                            
-                            <dt class="half">성별</dt>
-                            <dd class="half">
-                                <p>
-                                    <select>
-                                        <option>선택</option>
-                                    </select>
-                                </p>
-                            </dd>
-                            
-                            
-                            <dt><span>수령지</span> 주소</dt>
-                            <dd>
-                        
-                                <p class="same">
-                                    <input id="same" type="checkbox">
-                                    <label for="same">신청자 정보와 동일</label>
-                                </p>
-        
-                                <p>
-                                    <select>
-                                        <option>국내외 선택</option>
-                                    </select>
-                                </p>
-                                <p class="address">
-                                    <button>주소검색</button>
-                                    <input type="text" readonly placeholder="우편번호">
-                                </p>
-                                <p>
-                                    <input type="text">
-                                </p>
-                                <p>
-                                    <input type="text" placeholder="상세 주소를 입력하세요">
-                                </p>
-                            </dd>
-                        </dl>
+                                    <p class="same">
+                                        <input id="same" type="checkbox">
+                                        <label for="same">신청자 정보와 동일</label>
+                                    </p>
+            
+                                    <p>
+                                        <select>
+                                            <option>국내외 선택</option>
+                                        </select>
+                                    </p>
+                                    <p class="address">
+                                        <button>주소검색</button>
+                                        <input type="text" readonly placeholder="우편번호">
+                                    </p>
+                                    <p>
+                                        <input type="text">
+                                    </p>
+                                    <p>
+                                        <input type="text" placeholder="상세 주소를 입력하세요">
+                                    </p>
+                                </dd>
+                            </dl>
 
 
-                        <h4 class="sTitle">첨부 및 증빙서류</h4>
+                            <h4 class="sTitle">첨부 및 증빙서류</h4>
 
-                        <dl class="form">
+                            <dl class="form">
 
-                            <dt>결정통지서</dt>
-                            <dd>
-                                <p class="file">
+                                <dt>결정통지서</dt>
+                                <dd>
+                                    <p class="file">
 
-                                    <input type="text">
-                                    <button>첨부하기</button>
-                                </p>
-                            </dd>
+                                        <input type="text">
+                                        <button>첨부하기</button>
+                                    </p>
+                                </dd>
 
-                            <dt><span>주민등록</span> 등/초본</dt>
-                            <dd>
-                                <p class="file">
+                                <dt><span>주민등록</span> 등/초본</dt>
+                                <dd>
+                                    <p class="file">
 
-                                    <input type="text">
-                                    <button>첨부하기</button>
-                                </p>
-                            </dd>
+                                        <input type="text">
+                                        <button>첨부하기</button>
+                                    </p>
+                                </dd>
 
-                            <dt><span>발급대상자</span> 사진</dt>
-                            <dd>
-                                <p class="file">
+                                <dt><span>발급대상자</span> 사진</dt>
+                                <dd>
+                                    <p class="file">
 
-                                    <input type="text">
-                                    <button>첨부하기</button>
-                                </p>
-                            </dd>
-                            
-                        </dl>
+                                        <input type="text">
+                                        <button>첨부하기</button>
+                                    </p>
+                                </dd>
+                                
+                            </dl>
+
+                        </div>
+
+
+
+
+
 
                         <div class="btns">
                             <a href="">취소</a>
@@ -434,7 +585,7 @@
                                     <td>
                                         1
                                     </td>
-                                    <td><input id="pop-check01" name="pop-check" class="pop-check" type="radio"><label for="pop-check01">선택</label></td>
+                                    <td><input id="pop-check01" class="pop-check" type="checkbox"><label for="pop-check01"><i class='bx bx-check'></i>선택</label></td>
                                     <td>희생자</td>
                                     <td>홍길동</td>
                                     <td>2019.05.13</td>
@@ -446,7 +597,7 @@
                                     <td>
                                         2
                                     </td>
-                                    <td><input id="pop-check02" name="pop-check" class="pop-check" type="radio"><label for="pop-check02">선택</label></td>
+                                    <td><input id="pop-check02" class="pop-check" type="checkbox"><label for="pop-check02"><i class='bx bx-check'></i>선택</label></td>
                                     <td>유족</td>
                                     <td>홍길동</td>
                                     <td>2019.05.13</td>
