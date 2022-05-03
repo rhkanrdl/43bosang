@@ -2738,12 +2738,38 @@ body dl.form2 {
   font-size: 0;
 }
 
+body dl.form2.title1::before {
+  content: "희생자 정보 입력";
+  font-size: 16px;
+  display: block;
+  padding: 20px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2.title1::before {
+    font-size: 17px;
+  }
+}
+
+body dl.form2.title2::before {
+  content: "청구권자 정보 입력";
+  font-size: 16px;
+  display: block;
+  padding: 20px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form2.title2::before {
+    font-size: 17px;
+  }
+}
+
 body dl.form2 dt {
   position: relative;
   z-index: 10;
   display: inline-block;
   vertical-align: top;
-  width: 82px;
+  width: 130px;
   padding: 20px 0 0 20px;
   text-align: left;
   font-size: 15px;
@@ -2752,7 +2778,7 @@ body dl.form2 dt {
 @media (min-width: 1200px) {
   body dl.form2 dt {
     font-size: 16px;
-    width: 110px;
+    width: 130px;
   }
 }
 
@@ -2765,7 +2791,7 @@ body dl.form2 dd {
   position: relative;
   z-index: 0;
   display: inline-block;
-  width: calc(100% - 82px);
+  width: calc(100% - 130px);
   padding: 10px 10px 0 10px;
   margin: 0;
 }
@@ -2773,14 +2799,14 @@ body dl.form2 dd {
 @media (min-width: 1200px) {
   body dl.form2 dd {
     padding: 10px 10px 0 10px;
-    width: calc(100% - 110px);
+    width: calc(100% - 130px);
   }
   body dl.form2 dd.half {
     width: calc(50% - 110px);
     padding: 10px 10px 0;
   }
   body dl.form2 dd.halfB {
-    width: calc((100% - 220px) / 3);
+    width: calc((100% - 280px) / 3);
     padding: 10px 10px 0;
   }
 }
@@ -2964,6 +2990,11 @@ body dl.form2 dd p.file input {
   font-size: 15px;
   text-align: center;
   width: calc(100% - 100px);
+}
+
+body dl.form2 + dl.form2 {
+  margin-top: -40px;
+  border-top: none;
 }
 
 body div.infoBox {
@@ -4163,6 +4194,225 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.li
   color: #fff;
   background: #37599a;
   border: 1px solid #25437e;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 {
+  border: 1px solid #bbbbbb;
+  border-top-color: #222222;
+  background: #f6f8fb;
+  padding: 10px;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 {
+    padding: 30px 30px 10px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 u {
+  display: block;
+  padding: 50px 0;
+  text-decoration: none;
+  font-size: 18px;
+  color: #8da5c9;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 u {
+    padding: 60px 10px;
+    font-size: 20px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  text-align: left;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul {
+    margin: 0;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li {
+  position: relative;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border: 1px solid #bbb;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li p.name {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: #222;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li p.name {
+    font-size: 17px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li p.name strong {
+  font-weight: inherit;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li p.num {
+  margin: 0 0 20px;
+  font-size: 16px;
+  color: #222;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li p.num {
+    position: absolute;
+    left: 220px;
+    top: 14px;
+    font-size: 17px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li p.num strong {
+  font-weight: inherit;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li {
+  position: relative;
+  width: 100%;
+  vertical-align: top;
+  font-size: 15px;
+  padding: 10px 10px 10px 0;
+  margin: 0 10px 0 0;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li {
+    display: inline-block;
+    width: 30%;
+    font-size: 16px;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    margin: 0;
+  }
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li:nth-child(2n) {
+    width: 70%;
+    padding-left: 20px;
+  }
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li:nth-child(2n)::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 12px;
+    width: 1px;
+    height: 14px;
+    background: #ccc;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li:nth-child(2n)::before {
+    right: auto;
+    left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li:last-child {
+    width: 100%;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li:last-child {
+  border: none;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li span.type01 {
+  color: #c7638c;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li span.step-no {
+  color: #ff660d;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li span.step {
+  color: #37599a;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li > span.status {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 16px;
+  color: #FF660D;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li button {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #37599a;
+  background: #ececec;
+  border: 1px solid #37599a;
+  width: 90px;
+  height: 48px;
+  border-radius: 4px;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li button.re {
+  color: #fff;
+  background: #37599a;
+  border: 1px solid #25437e;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2.pt01 > ul > li {
+  padding-top: 50px;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2.pt01 > ul > li p.num {
+  top: 50px;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list-empty {
+  text-align: center;
+  background: #F6F8FB;
+  border: 1px solid #BBBBBB;
+  border-top-color: #222222;
+  padding: 96px 20px;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list-empty span {
+  display: block;
+  font-size: 18px;
+  color: #8DA5C9;
+  line-height: 1.8;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list-empty span {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
