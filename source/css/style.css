@@ -2821,6 +2821,10 @@ body dl.form2 dd.single {
   }
 }
 
+body dl.form2 dd.all {
+  width: 100%;
+}
+
 body dl.form2 dd p {
   margin: 0 0 10px;
 }
