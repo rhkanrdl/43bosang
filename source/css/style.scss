@@ -58,7 +58,8 @@ body {
       height: 54px;
 
       @media (min-width: $screen-size-pc) {
-        height: 100px;
+        height: 144px;
+        border-bottom:1px solid #AAAAAA;
       }
 
       h1 {
@@ -98,13 +99,30 @@ body {
           right: 0;
           width: 36px;
           height: 36px;
-          top: 40px;
+          top: 30px;
         }
       }
     }
+
+    &.on {
+      .container {
+        border-bottom-color:transparent;
+      }
+    }
+
+
   }
 
-  @media (max-width: $screen-size-pc - 1) {
+&.sub {
+  header {
+    .container {
+      border:none;
+    }
+  }
+}
+
+
+  @media (max-width: ($screen-size-pc - 1)) {
     nav#main-menu {
       div.util {
         position: absolute;
@@ -146,6 +164,8 @@ body {
 
         div.menus {
           margin: 30px 0 55px;
+          height:calc(100vh - 70px);
+          overflow-y:scroll;
 
           & > ul {
             margin: 0;
@@ -158,14 +178,11 @@ body {
               padding: 20px 10px 20px 20px;
 
               h3 {
-                margin: 0;
-                display: inline-block;
-                width: 100px;
-                margin-right: 20px;
+                margin: 0 0 20px;
 
                 a {
                   display: block;
-                  font-size: 16px;
+                  font-size: 18px;
                   font-weight: 600;
                   line-height: 1.6;
                   color: #222;
@@ -184,8 +201,9 @@ body {
                 li {
                   a {
                     display: block;
-                    font-size: 14px;
+                    font-size: 15px;
                     font-weight: 500;
+                    line-height:1.8;
                     margin-bottom: 10px;
                     color: #555;
                   }
@@ -212,10 +230,11 @@ body {
 
   @media (min-width: $screen-size-pc) {
     nav#main-menu {
+      
       div.util {
         position: absolute;
         right: 50%;
-        top: -85px;
+        top: -60px;
         margin-right: -540px;
 
         a {
@@ -239,21 +258,20 @@ body {
 
         div.menus {
           position: absolute;
-          top: -69px;
+          top: -20px;
           right: 50%;
-          margin-right: -540px;
+          margin-right: -600px;
+          width:1200px;
 
           & > ul {
             list-style: none;
             margin: 0;
             padding: 0;
-            text-align: center;
+            display:flex;
+            justify-content: space-between;
 
             & > li {
-              display: inline-block;
-              vertical-align: top;
               position: relative;
-              margin-right: 26px;
 
               &:last-of-type {
                 margin-right: 0;
@@ -265,6 +283,7 @@ body {
                   color: #222;
                   font-size: 17px;
                   font-weight: 400;
+                  letter-spacing:-1px;
                 }
               }
 
@@ -312,12 +331,12 @@ body {
 
       &.allMenu {
         position: absolute;
-        z-index: 100001;
+        z-index: 800;
         left: 0;
         right: 0;
-        top: 100px;
-        background: #fff;
-        border-top: 1px solid #b3c4d5;
+        top: 0;
+        background: #fff; 
+        padding-top: 120px;
 
         h2 {
           display: none;
@@ -326,34 +345,38 @@ body {
         div.menus {
           & > ul {
             list-style: none;
-            margin: 0;
+            margin: 0 auto;
             padding: 0;
-            text-align: center;
             font-size: 0;
+            width:1200px;
 
             &::before {
               content: "";
               display: inline-block;
-              width: 150px;
-              height: 300px;
-              background: url(../images/img-menu.svg) no-repeat left top 30px /
-                122px auto;
-              border-right: 1px solid #b3c4d5;
+              position:absolute;
+              left:50%;
+              top:100px;
+              margin-left:320px;
+              width: 275px;
+              height: 45px;
+              background: url(../images/img-menu.svg) no-repeat center /
+                100% auto;
             }
 
             & > li {
               display: inline-block;
-              width: 175px;
-              height: 300px;
+              width: calc(100% / 3);
               vertical-align: top;
-              border-right: 1px solid #b3c4d5;
+              border-top: 1px solid #b3c4d5;
+              padding-bottom:22px;
 
-              &:last-of-type {
-                margin-right: 0;
+              &:first-child {
+                border-top:none;
               }
+              
 
               h3 {
-                margin: 35px 0 25px;
+                margin: 25px 0 15px;
 
                 a {
                   display: block;
@@ -361,53 +384,57 @@ body {
                   font-size: 19px;
                   word-break: keep-all;
                   font-weight: 800;
-                  padding: 0 30px;
-                  height: 60px;
+                  padding: 0;
                   line-height: 1.6;
                 }
               }
 
               ul {
-                list-style: none;
-                margin: 0;
-                padding: 0;
-                text-align: left;
+                display:none;
+              }
 
-                li {
-                  a {
-                    display: block;
-                    position: relative;
-                    font-size: 15px;
-                    margin-bottom: 15px;
-                    padding: 0 14px;
-                    word-break: keep-all;
 
-                    &:hover,
-                    &.active {
-                      padding-left: 30px;
-                      font-weight: 600;
-                      color: #4572c2;
+              &:nth-child(1),
+              &:nth-child(2) {
 
-                      &::before {
-                        content: "";
-                        display: block;
-                        position: absolute;
-                        left: 18px;
-                        top: 3px;
-                        width: 8px;
-                        height: 13px;
-                        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.719' height='11.25' viewBox='0 0 8.719 11.25'%3E%3Cpath id='패스_22251' data-name='패스 22251' d='M5.344,4.25l5.906,8.719H0Z' transform='translate(12.969) rotate(90)' fill='%234572c2'/%3E%3C/svg%3E%0A")
-                          no-repeat center / 100% auto;
+                width:100%;
+
+
+                ul {
+                  display:block;
+                  list-style: none;
+                  margin: 0;
+                  padding: 0;
+                  text-align: left;
+  
+                  li {
+                    display: inline-block;
+
+                    a {
+                      display: block;
+                      position: relative;
+                      font-size: 16px;
+                      margin-bottom: 15px;
+                      padding: 0 30px 0 0;
+                      word-break: keep-all;
+  
+                      &:hover,
+                      &.active {
+                        font-weight: 600;
+                        color: #4572c2;
                       }
                     }
                   }
                 }
+                
               }
             }
           }
         }
 
         div.util {
+          top: -61px;
+
           a {
             color: #555;
           }
@@ -418,7 +445,7 @@ body {
           font-size: 0;
           left: 50%;
           margin-left: 564px;
-          top: -61px;
+          top: -71px;
           width: 36px;
           height: 36px;
           border: none;
@@ -1141,7 +1168,7 @@ body {
     padding: 54px 0 50px;
 
     @media (min-width: $screen-size-pc) {
-      padding: 100px 0 40px;
+      padding: 144px 0 40px;
     }
 
     /* MAIN */
@@ -1171,9 +1198,9 @@ body {
               auto;
 
             @media (min-width: $screen-size-pc) {
-              width: 696px;
-              height: 73px;
-              margin: 144px auto 46px;
+              width: 568px;
+              height: 60px;
+              margin: 84px auto 66px;
               background: url(../images/mainText.svg) no-repeat center / 100%
                 auto;
             }
@@ -1207,7 +1234,7 @@ body {
               width: 614px;
               height: 350px;
               padding: 0;
-              margin: 0 auto 52px;
+              margin: 0 auto 64px;
               background: url(../images/remember.svg) no-repeat center / 100%
                 auto;
             }
@@ -1261,55 +1288,66 @@ body {
             text-align: center;
 
             a {
-              display: block;
+              display: inline-block;
+              vertical-align:top;
+              width:calc((100vw - 71px) / 2);
+              height:calc((100vw - 71px) / 2);
               position: relative;
-              line-height: 70px;
-              font-size: 20px;
+              border-radius:50%;
+              font-size: 4vw;
               letter-spacing: -0.5px;
               color: #fff;
-              text-align: left;
-              border-radius: 20px;
-              margin-bottom: 16px;
-              padding: 0 18px;
-              line-height: 70px;
+              background:#755A44;
+              border:0.5vw solid #654421;
+              line-height: 1.6;
               font-weight: 500;
-              background: url(../images/btn_even.png);
+              padding-top:12vw;
+              margin-bottom:15px;
 
               @media (min-width: $screen-size-pc) {
-                display: inline-block;
-                width: 300px;
-                line-height: 1.6;
-                padding: 28px 34px;
-
-                span {
-                  display: block;
-                }
+                margin-right:30px;
+                border-width:1px;
               }
 
               &:nth-child(odd) {
-                background: url(../images/btn_odd.png);
+                margin-right:15px;
 
                 @media (min-width: $screen-size-pc) {
-                  margin-right: 14px;
+                  margin-right:30px;
                 }
+              }
+
+              &:nth-child(n+3) {
+                background:#9B5859;
+                border-color: #803D3E;
+
+
+              }
+
+              @media (min-width: $screen-size-pc) {
+                width:230px;
+                height:230px;
+                font-size:22px;
+                padding-top:60px;
+              }
+
+              span {
+                display:block;
               }
 
               &::after {
                 content: "";
                 display: block;
-                position: absolute;
-                right: 18px;
-                top: 50%;
-                transform: translateY(-50%);
-                width: 28px;
-                height: 28px;
+                margin:2vw auto;
+                width: 6vw;
+                height: 6vw;
                 background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='28' height='28' viewBox='0 0 28 28'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='28' height='28' fill='none' stroke='%23fff' stroke-width='2'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23clip-path)'%3E%3Ccircle  cx='13.176' cy='13.176' r='13.176' transform='translate(0.824 0.824)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cline id='선_147' data-name='선 147' x1='10.995' transform='translate(7.752 14)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath d='M29.337,28,34.4,22.933l-5.068-5.067' transform='translate(-14.668 -8.933)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E%0A")
                   no-repeat center / 100% auto;
 
                 @media (min-width: $screen-size-pc) {
                   width: 34px;
                   height: 34px;
-                  right: 34px;
+                  margin:20px auto;
                 }
               }
             }
