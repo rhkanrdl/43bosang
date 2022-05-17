@@ -3605,8 +3605,8 @@ body div#content.main section.main-issue div.container div.links a {
   font-size: 4vw;
   letter-spacing: -0.5px;
   color: #fff;
-  background: #755A44;
-  border: 0.5vw solid #654421;
+  background: #9B5859;
+  border: 0.5vw solid #803D3E;
   line-height: 1.6;
   font-weight: 500;
   padding-top: 12vw;
@@ -3631,16 +3631,19 @@ body div#content.main section.main-issue div.container div.links a:nth-child(odd
 }
 
 body div#content.main section.main-issue div.container div.links a:nth-child(n+3) {
-  background: #9B5859;
-  border-color: #803D3E;
+  background: #755A44;
+  border-color: #654421;
 }
 
 @media (min-width: 1200px) {
   body div#content.main section.main-issue div.container div.links a {
-    width: 230px;
-    height: 230px;
+    width: 198px;
+    height: 198px;
     font-size: 22px;
-    padding-top: 60px;
+    padding-top: 50px;
+  }
+  body div#content.main section.main-issue div.container div.links a:last-of-type {
+    margin-right: 0;
   }
 }
 
@@ -4615,6 +4618,29 @@ body div#content.sub div.sub-contents div.contentsOutline section.support ul.det
   display: block;
   position: absolute;
   left: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li > a {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 0 20px;
+  background: #37599a;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 34px;
+  border-bottom: 5px solid #253a61;
+  font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li > a {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li > a.sub {
+  background: #555;
+  border-color: #333;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.info {

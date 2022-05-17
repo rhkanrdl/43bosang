@@ -1618,8 +1618,8 @@ body {
               font-size: 4vw;
               letter-spacing: -0.5px;
               color: #fff;
-              background:#755A44;
-              border:0.5vw solid #654421;
+              background:#9B5859;
+              border:0.5vw solid #803D3E;
               line-height: 1.6;
               font-weight: 500;
               padding-top:12vw;
@@ -1639,17 +1639,21 @@ body {
               }
 
               &:nth-child(n+3) {
-                background:#9B5859;
-                border-color: #803D3E;
+                background:#755A44;
+                border-color: #654421;
 
 
               }
 
               @media (min-width: $screen-size-pc) {
-                width:230px;
-                height:230px;
+                width:198px;
+                height:198px;
                 font-size:22px;
-                padding-top:60px;
+                padding-top:50px;
+
+                &:last-of-type {
+                  margin-right:0;
+                }
               }
 
               span {
@@ -2619,6 +2623,34 @@ body {
                       }
                     }
                   }
+
+                  &>a {
+                    display: inline-block;
+                    margin: 20px auto;
+                    padding:0 20px;
+                    background: #37599a;
+                    border-radius: 4px;
+                    color: #fff;
+                    line-height: 34px;
+                    border-bottom: 5px solid #253a61;
+                    font-size: 14px;
+
+                    @media (min-width: $screen-size-pc) {
+                      font-size: 16px;
+                    }
+
+                    &.sub {
+                      background: #555;
+                      border-color:#333;
+
+                    }
+                  }
+
+
+
+
+
+
                 }
               }
             }
