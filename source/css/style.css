@@ -3018,6 +3018,265 @@ body dl.form2 + dl.form2 {
   border-top: none;
 }
 
+body dl.form3 {
+  position: relative;
+  border: 1px solid #bbb;
+  border-bottom: none;
+  margin-bottom: 40px;
+  font-size: 0;
+  background: #fff;
+}
+
+body dl.form3 dt {
+  position: relative;
+  z-index: 10;
+  vertical-align: top;
+  text-align: left;
+  padding: 20px 0 0 10px;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form3 dt {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    width: 280px;
+  }
+}
+
+body dl.form3 dt span {
+  display: block;
+  margin-top: -10px;
+}
+
+body dl.form3 dd {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+  margin: 0;
+  border-bottom: 1px solid #bbb;
+}
+
+@media (min-width: 1200px) {
+  body dl.form3 dd {
+    padding: 10px 10px 0 10px;
+    width: calc(100% - 280px);
+  }
+}
+
+@media (min-width: 1200px) {
+  body dl.form3 dd::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    background: #f1f3f8;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    width: 280px;
+    left: -281px;
+    border-left: 1px solid #bbb;
+  }
+}
+
+body dl.form3 dd i.info {
+  font-size: 14px;
+  color: #FF660D;
+  font-style: normal;
+  display: block;
+  margin: 0 0 10px;
+}
+
+body dl.form3 dd p {
+  margin: 0 0 10px;
+}
+
+body dl.form3 dd p span {
+  display: block;
+  padding: 10px;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form3 dd p span {
+    font-size: 16px;
+  }
+}
+
+body dl.form3 dd p select {
+  width: 100%;
+  border: 1px solid #cccccc;
+  height: 38px;
+  padding: 0 10px;
+  color: #555555;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form3 dd p select {
+    font-size: 16px;
+  }
+}
+
+body dl.form3 dd p input {
+  width: 100%;
+  border: 1px solid #cccccc;
+  height: 38px;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form3 dd p input {
+    font-size: 16px;
+  }
+}
+
+body dl.form3 dd p input:-moz-read-only {
+  background: #f3f3f3;
+}
+
+body dl.form3 dd p input:read-only {
+  background: #f3f3f3;
+}
+
+body dl.form3 dd p button {
+  font-size: 15px;
+  background: #505b6e;
+  color: #fff;
+  border: 1px solid #2e3d58;
+  height: 38px;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+
+body dl.form3 dd p.address {
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body dl.form3 dd p.address {
+    width: 320px;
+  }
+}
+
+body dl.form3 dd p.address button {
+  font-size: 15px;
+  border: 1px solid #cccccc;
+  height: 38px;
+  margin-right: 10px;
+  width: 90px;
+}
+
+body dl.form3 dd p.address input {
+  font-size: 15px;
+  text-align: center;
+  width: calc(100% - 100px);
+}
+
+body dl.form3 dd p.phone span {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #555555;
+  padding-left: 0;
+}
+
+@media (min-width: 1200px) {
+  body dl.form3 dd p.phone span {
+    font-size: 16px;
+  }
+}
+
+body dl.form3 dd p.radio {
+  margin: 10px 10px 20px;
+  font-size: 15px;
+}
+
+@media (min-width: 1200px) {
+  body dl.form3 dd p.radio {
+    font-size: 16px;
+  }
+}
+
+body dl.form3 dd p.radio input {
+  display: none;
+}
+
+body dl.form3 dd p.radio label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  margin-right: 20px;
+  color: #555555;
+}
+
+body dl.form3 dd p.radio label::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 22px;
+  height: 22px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body dl.form3 dd p.radio input:checked + label {
+  color: #222222;
+}
+
+body dl.form3 dd p.radio input:checked + label::before {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cg transform='translate(-101 -1155)'%3E%3Cg transform='translate(101 1155)' fill='%23fff' stroke='%23aaa' stroke-width='1'%3E%3Ccircle cx='11' cy='11' r='11' stroke='none'/%3E%3Ccircle cx='11' cy='11' r='10.5' fill='none'/%3E%3C/g%3E%3Cg transform='translate(105 1159)' fill='%23505b6e' stroke='%23505b6e' stroke-width='1'%3E%3Ccircle cx='7' cy='7' r='7' stroke='none'/%3E%3Ccircle cx='7' cy='7' r='6.5' fill='none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+body dl.form3 dd p.file {
+  font-size: 0;
+}
+
+@media (min-width: 1200px) {
+  body dl.form3 dd p.file {
+    width: 420px;
+  }
+}
+
+body dl.form3 dd p.file button {
+  font-size: 15px;
+  border: 1px solid #cccccc;
+  height: 38px;
+  margin-left: 10px;
+  width: 90px;
+}
+
+body dl.form3 dd p.file input {
+  font-size: 15px;
+  text-align: center;
+  width: calc(100% - 100px);
+}
+
+body dl.form3 dd p.same {
+  text-align: left;
+  padding: 10px 0 0;
+  font-size: 14px;
+}
+
+body dl.form3 dd p.same input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+body dl.form3 dd p.same label {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 20px;
+  font-weight: 6000;
+}
+
 body div.infoBox {
   border: 1px solid #bbbbbb;
   background: #fcfcfc;
@@ -3066,6 +3325,66 @@ body div.infoBox ul li {
 }
 
 body div.infoBox ul li::before {
+  content: "○";
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+body div.infoBox2 {
+  border: 1px solid #bbbbbb;
+  background: #fcfcfc;
+  padding: 30px 20px 20px;
+  margin: 0 0 30px;
+  word-break: keep-all;
+}
+
+@media (min-width: 1200px) {
+  body div.infoBox2 {
+    padding: 25px 25px 15px;
+  }
+}
+
+body div.infoBox2 strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+  margin: 0 0 20px;
+  line-height: 1.6;
+}
+
+@media (min-width: 1200px) {
+  body div.infoBox2 strong {
+    font-size: 18px;
+  }
+}
+
+body div.infoBox2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body div.infoBox2 ul li {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 0 0 0 18px;
+  color: #555555;
+  font-size: 15px;
+  color: #5680CC;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  body div.infoBox2 ul li {
+    font-size: 16px;
+    padding: 0 0 0 20px;
+    margin-bottom: 10px;
+  }
+}
+
+body div.infoBox2 ul li::before {
   content: "○";
   display: block;
   position: absolute;
@@ -3714,6 +4033,266 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
 
 body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments div.btns a span strong {
   font-weight: 600;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents {
+  list-style: none;
+  margin: 0 0 60px;
+  padding: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li {
+  position: relative;
+  background: #f9f9f9;
+  border: 1px solid #bbbbbb;
+  margin-bottom: 10px;
+  padding: 16px 10px;
+  border-radius: 5px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li {
+    padding: 24px 160px 24px 70px;
+    margin-bottom: 12px;
+  }
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li.type01 {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='33.213' height='25.736' viewBox='0 0 33.213 25.736'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='33.213' height='25.736' transform='translate(0 0)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='1'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg transform='translate(0 0)'%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath d='M0,23.576V2.16A2.162,2.162,0,0,1,2.16,0H31.053a2.162,2.162,0,0,1,2.16,2.16V23.576a2.162,2.162,0,0,1-2.16,2.16H2.16A2.162,2.162,0,0,1,0,23.576M31.249,2.16a.2.2,0,0,0-.2-.2H2.16a.2.2,0,0,0-.2.2V23.576a.2.2,0,0,0,.2.2H31.053a.2.2,0,0,0,.2-.2Z' transform='translate(0 0)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='1'/%3E%3Cpath d='M65.574,28.84h8.209a.985.985,0,1,0,0-1.97H65.574a.985.985,0,1,0,0,1.97' transform='translate(-46.467 -19.331)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='1'/%3E%3Cpath d='M65.629,43.039a.985.985,0,0,0,.01,1.97h8.219a.985.985,0,0,0-.01-1.97Z' transform='translate(-46.531 -30.963)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='1'/%3E%3Cpath d='M73.783,59.208H65.574a.985.985,0,1,0,0,1.97h8.209a.985.985,0,1,0,0-1.97' transform='translate(-46.467 -42.596)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='1'/%3E%3Cpath d='M24.737,31.753a4.16,4.16,0,1,0-6.274,0,5.941,5.941,0,0,0-2.417,4.763.886.886,0,1,0,1.773,0A4.159,4.159,0,0,1,20,32.869a4.147,4.147,0,0,0,3.193,0,4.158,4.158,0,0,1,2.185,3.646.886.886,0,1,0,1.773,0,5.94,5.94,0,0,0-2.417-4.763M21.6,31.416a2.387,2.387,0,1,1,2.387-2.387A2.39,2.39,0,0,1,21.6,31.416' transform='translate(-11.544 -17.892)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #f9f9f9 left 20px top 32px/33px auto;
+  }
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li.type02 {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='30.689' height='34' viewBox='0 0 30.689 34'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='30.689' height='34' fill='%23c3dae5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23clip-path)'%3E%3Cpath d='M29.323,0H8.534A1.366,1.366,0,0,0,7.169,1.364V6.928h-5.8A1.366,1.366,0,0,0,0,8.294v24.34A1.366,1.366,0,0,0,1.365,34H22.155a1.366,1.366,0,0,0,1.365-1.365V27.07h5.8A1.365,1.365,0,0,0,30.689,25.7V1.364A1.366,1.366,0,0,0,29.323,0M20.789,31.268H2.731V9.659H20.789Zm1.365-24.34H9.9V2.73H27.958V24.339H23.52V8.294a1.366,1.366,0,0,0-1.365-1.365' transform='translate(0 0.001)' fill='%23c3dae5'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #f9f9f9 left 20px top 32px/31px auto;
+  }
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li.type03 {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='33.808' height='33.247' viewBox='0 0 33.808 33.247'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='33.808' height='33.247' transform='translate(0 0)' fill='%23c3dae5'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg transform='translate(0 0)'%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath d='M41.225,29.4a1.174,1.174,0,0,1-1.174-1.174V2.919a.578.578,0,0,0-.571-.571H15.845a.578.578,0,0,0-.571.571V27.26a1.174,1.174,0,0,1-2.348,0V2.919A2.922,2.922,0,0,1,15.845,0H39.48A2.922,2.922,0,0,1,42.4,2.919v25.3A1.174,1.174,0,0,1,41.225,29.4' transform='translate(-8.591 0)' fill='%23c3dae5'/%3E%3Cpath d='M29.364,85.868H4.621A4.186,4.186,0,0,1,1.564,84.65,6.537,6.537,0,0,1,0,80.336a1.174,1.174,0,0,1,1.174-1.159H25.3a1.173,1.173,0,0,1,1.171,1.258,3.547,3.547,0,0,0,.757,2.338,2.772,2.772,0,0,0,2.132.748h.007a1.174,1.174,0,1,1,0,2.348M2.5,81.525a3.2,3.2,0,0,0,.739,1.481,1.845,1.845,0,0,0,1.382.515H24.875a5.729,5.729,0,0,1-.683-2Z' transform='translate(0 -52.621)' fill='%23c3dae5'/%3E%3Cpath d='M76.436,36.033a4.93,4.93,0,0,1-3.983-1.6,5.387,5.387,0,0,1-1.012-4.12,1.174,1.174,0,0,1,2.314.4,3.12,3.12,0,0,0,.5,2.221,2.741,2.741,0,0,0,2.178.753,2.542,2.542,0,0,0,1.851-.573,3.51,3.51,0,0,0,.607-2.42V5.366a1.174,1.174,0,0,1,2.348,0V30.671a5.534,5.534,0,0,1-1.287,4.094,4.752,4.752,0,0,1-3.519,1.268' transform='translate(-47.436 -2.786)' fill='%23c3dae5'/%3E%3Cpath d='M47.913,33.073a3.689,3.689,0,0,0-2.69-3.995v-1.2l-.006-.092A6.143,6.143,0,0,0,39,22.239l-.193,0-.173,0A6.148,6.148,0,0,0,32.4,27.786l-.006,1.292A3.677,3.677,0,0,0,29.7,33.052v1.242a1.683,1.683,0,0,0,1.336,1.583l.08.02h.033v1.192a1.293,1.293,0,0,0,1.292,1.292h.931a1.293,1.293,0,0,0,1.292-1.292V35.9H42.95v1.192a1.293,1.293,0,0,0,1.292,1.292h.932a1.293,1.293,0,0,0,1.291-1.292V35.9l.113-.02a1.683,1.683,0,0,0,1.336-1.583Zm-14.684.65A1.267,1.267,0,1,1,34.5,32.456a1.268,1.268,0,0,1-1.267,1.267m5.227-8.687.368,0,.273,0a3.78,3.78,0,0,1,3.749,2.718v1.111H34.769v-1.11a3.774,3.774,0,0,1,3.686-2.716M43.2,32.409a1.219,1.219,0,1,1,1.219,1.219A1.221,1.221,0,0,1,43.2,32.409' transform='translate(-19.738 -14.777)' fill='%23c3dae5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #f9f9f9 left 20px top 32px/33px auto;
+  }
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li.type04 {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='28.809' height='33.673' viewBox='0 0 28.809 33.673'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='28.809' height='33.673' transform='translate(0 0)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='0.8'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg transform='translate(0 0)' clip-path='url(%23clip-path)'%3E%3Cpath d='M28.342,1.2A2.72,2.72,0,0,0,26.083,0H20.115V.022A1.127,1.127,0,0,0,19.9,0H9.014a1.115,1.115,0,0,0-.321.052V0H2.725A2.728,2.728,0,0,0,0,2.725V30.948a2.728,2.728,0,0,0,2.725,2.725H26.083a2.728,2.728,0,0,0,2.725-2.725V2.725A2.708,2.708,0,0,0,28.342,1.2M10.137,2.244h8.639V4.215H10.137Zm16.428,28.7a.488.488,0,0,1-.481.481H2.725a.487.487,0,0,1-.481-.481V2.725a.487.487,0,0,1,.481-.481H7.892V5.337A1.122,1.122,0,0,0,9.014,6.459H19.9A1.122,1.122,0,0,0,21.02,5.337V2.244h5.063a.488.488,0,0,1,.481.481V30.948Z' transform='translate(0 0)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='0.8'/%3E%3Cpath id='패스_23462' data-name='패스 23462' d='M29.878,49.772H16.07a1.122,1.122,0,0,0,0,2.244H29.878a1.122,1.122,0,1,0,0-2.244' transform='translate(-10.155 -33.814)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='0.8'/%3E%3Cpath id='패스_23463' data-name='패스 23463' d='M33.155,32.1H16.069a1.122,1.122,0,0,0,0,2.244H33.155a1.122,1.122,0,0,0,0-2.244' transform='translate(-10.155 -21.81)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='0.8'/%3E%3Cpath id='패스_23464' data-name='패스 23464' d='M25.5,67.115H16.069a1.122,1.122,0,0,0,0,2.244H25.5a1.122,1.122,0,0,0,0-2.244' transform='translate(-10.155 -45.597)' fill='%23c3dae5' stroke='%23c3dae5' stroke-width='0.8'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat #f9f9f9 left 20px top 32px/29px auto;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li strong {
+  display: block;
+  font-weight: 500;
+  color: #222;
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li strong {
+    font-size: 18px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li strong::before {
+  display: inline-block;
+  content: "○";
+  margin-right: 4px;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li span {
+  display: block;
+  padding: 0 0 10px 20px;
+  font-size: 14px;
+  color: #555555;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li span {
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li p {
+  text-align: right;
+  margin: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li p a {
+  display: inline-block;
+  width: 140px;
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  background: #4d9ab5;
+  border-radius: 4px;
+  border-bottom: 4px solid #538d9f;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 ul.documents li p a {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual {
+  margin: 0 0 30px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual {
+    margin: 0 0 60px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dt {
+  position: relative;
+  font-size: 106px;
+  color: #222;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 14px;
+  padding: 0 0 0 24px;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dt {
+    font-size: 18px;
+    padding: 0 0 0 30px;
+    margin-bottom: 20px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dt::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='18' height='18' viewBox='0 0 18 18'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='18' height='18' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23clip-path)'%3E%3Cpath d='M9,0A9,9,0,1,1,0,9,9.01,9.01,0,0,1,9,0' fill='%23dee7f8'/%3E%3Cpath d='M105.629,92.5l-3.38-2.3A1.544,1.544,0,0,0,99.8,91.462V96a1.545,1.545,0,0,0,2.392,1.291l3.4-2.231a1.544,1.544,0,0,0,.034-2.558' transform='translate(-94.048 -84.732)' fill='%23668dd1'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dt::before {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dd {
+  margin: 0 0 30px 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dd {
+    margin: 0 0 30px 30px;
+    font-size: 16px;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dd ul {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+  color: #555555;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dd ul li {
+  position: relative;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 20px;
+  word-break: keep-all;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dd ul li i {
+  display: block;
+  position: absolute;
+  left: 0;
+  font-style: normal;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dd p {
+  margin: 6px 0 0;
+  color: #222222;
+  font-weight: 500;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps {
+  font-size: 0;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps p {
+  position: relative;
+  margin: 0 0 38px;
+  background: #F1F1F1;
+  border-radius: 20px;
+  line-height: 48px;
+  padding: 0 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps p {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.6;
+    font-size: 17px;
+    width: calc((100% - 126px) / 4);
+    margin: 0 42px 0 0;
+    height: 170px;
+  }
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps p span {
+    display: block;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps p::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: -26px;
+  width: 23px;
+  height: 13.2px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='23.102' height='13.239' viewBox='0 0 23.102 13.239'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='13.239' height='23.102' fill='none'/%3E%3C/clipPath%3E%3CclipPath id='clip-path-2'%3E%3Cpath d='M62.185,10.858a1.878,1.878,0,0,0-.434-.7L52.275.552a1.842,1.842,0,0,0-2.63,0l-.005.005a1.9,1.9,0,0,0,0,2.667l8.271,8.388-8.217,8.333a1.868,1.868,0,0,0,0,2.615,1.806,1.806,0,0,0,2.579,0L61.8,12.9a1.868,1.868,0,0,0,.384-2.039' transform='translate(-49.095 0)' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg transform='translate(23.102) rotate(90)' opacity='0.88'%3E%3Cg %3E%3Cg clip-path='url(%23clip-path)'%3E%3Cg transform='translate(0 0)'%3E%3Cg clip-path='url(%23clip-path-2)'%3E%3Cpath d='M.166.18,27.077,0l-.166,24.777L0,24.957Z' transform='matrix(0.594, -0.804, 0.804, 0.594, -11.484, 15.024)' fill='%235680cc'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps p::after {
+    width: 15px;
+    height: 26px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14.9' height='26' viewBox='0 0 14.9 26'%3E%3Cdefs%3E%3CclipPath id='clip-path'%3E%3Crect width='14.9' height='26' fill='none'/%3E%3C/clipPath%3E%3CclipPath id='clip-path-2'%3E%3Cpath d='M63.827,12.221a2.113,2.113,0,0,0-.488-.783L52.674.621a2.073,2.073,0,0,0-2.96,0l-.006.006a2.144,2.144,0,0,0,0,3l9.309,9.44-9.248,9.378a2.1,2.1,0,0,0,0,2.943,2.032,2.032,0,0,0,2.9,0L63.395,14.516a2.1,2.1,0,0,0,.432-2.3' transform='translate(-49.095 0)' fill='none'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg opacity='0.88'%3E%3Cg %3E%3Cg clip-path='url(%23clip-path)'%3E%3Cg  transform='translate(0 0)'%3E%3Cg  clip-path='url(%23clip-path-2)'%3E%3Cpath d='M.187.2,30.475,0l-.187,27.886L0,28.088Z' transform='matrix(0.594, -0.804, 0.804, 0.594, -12.925, 16.909)' fill='%235680cc'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center/100% auto;
+    left: auto;
+    right: -30px;
+    bottom: 50%;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps p:last-of-type {
+    margin-right: 0;
+  }
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps p:last-of-type:after {
+  display: none;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps p i {
+  font-style: normal;
+}
+
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps p i {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.intro p.text {
@@ -4671,6 +5250,10 @@ body div#content.sub div.sub-contents div.contentsOutline section.receiptForm di
   text-align: center;
 }
 
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns.margin {
+  margin: -20px 0 30px;
+}
+
 body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a {
   display: inline-block;
   width: 150px;
@@ -4701,6 +5284,11 @@ body div#content.sub div.sub-contents div.contentsOutline section.receiptForm di
 body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a.sub {
   background: #505b6e;
   color: #fff;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a.auto {
+  width: auto;
+  padding: 0 20px;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receiptForm div.btns a span {
