@@ -694,11 +694,18 @@ body {
           }
 
           label {
-            display: inline-block;
+            display: block;
             position: relative;
             padding-left: 28px;
-            margin-right: 20px;
+            margin: 0 20px 10px 0;
             color: #555555;
+
+
+            @media (min-width: $screen-size-pc) {
+              display: inline-block;
+              margin:0 20px 0 0;
+            }
+
 
             &::before {
               content: "";
@@ -2209,10 +2216,35 @@ body {
                     }
                   }
 
-                  p {
+                  &>p {
                     margin: 6px 0 0;
                     color: #222222;
                     font-weight: 500;
+
+                    &.red {
+                      color:#ff1a1a;
+                    }
+                  }
+
+                  div.depth {
+                    background:#efefef;
+                    padding:20px;
+                    margin:10px 0 20px;
+
+                    p {
+                      margin:0;
+
+                      &.red {
+                        color:#ff1a1a;
+                      }
+                    }
+
+                    strong {
+                      display:block;
+                      margin:0 0 10px;
+                      font-size:18px;
+                      font-weight:600;
+                    }
                   }
                 }
               }
@@ -2665,7 +2697,7 @@ body {
                   margin: 0 0 60px;
                 }
 
-                li {
+                &>li {
                   position: relative;
                   font-size: 16px;
                   padding: 0 0 20px 34px;
@@ -2686,6 +2718,39 @@ body {
 
                   p {
                     margin: 0;
+                    word-break:keep-all;
+
+                    &.red {
+                      color:#ff1a1a;
+                    }
+                  }
+
+                  &>ul {
+                    list-style:none;
+                    margin:10px 0 20px;
+                    padding:0;
+                    color:#1c7cc2;
+
+                    li {
+                      &::before {
+                        content:"*";
+                        padding:0 6px 0 0;
+                      }
+                    }
+                  }
+
+                  div {
+                    background:#efefef;
+                    padding:20px;
+                    margin:0 0 20px;
+
+                    strong {
+                      display:block;
+                      font-size:18px;
+                      font-weight:600;
+                      margin:0 0 10px;
+                    }
+
                   }
                 }
               }
