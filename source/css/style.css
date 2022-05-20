@@ -2885,6 +2885,7 @@ body dl.form2 dd p input {
   border: 1px solid #cccccc;
   height: 42px;
   padding: 0 10px;
+  font-size: 15px;
 }
 
 @media (min-width: 1200px) {
@@ -4228,7 +4229,8 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
 body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dd div.depth {
   background: #efefef;
   padding: 20px;
-  margin: 10px 0 20px;
+  margin: 20px 0 30px;
+  line-height: 1.6;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dd div.depth p {
@@ -4712,6 +4714,10 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.inf
 
 body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.info > li p.red {
   color: #ff1a1a;
+}
+
+body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.info > li p.blue {
+  color: #1c7cc2;
 }
 
 body div#content.sub div.sub-contents div.contentsOutline section.receipt ul.info > li > ul {
