@@ -4226,6 +4226,10 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
   color: #ff1a1a;
 }
 
+body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dd > p.blue {
+  color: #1c7cc2;
+}
+
 body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 dl.manual dd div.depth {
   background: #efefef;
   padding: 20px;
