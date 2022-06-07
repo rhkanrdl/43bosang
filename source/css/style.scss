@@ -1623,7 +1623,7 @@ body {
               height:calc((100vw - 71px) / 2);
               position: relative;
               border-radius:50%;
-              font-size: 4vw;
+              font-size: 3.6vw;
               letter-spacing: -0.5px;
               color: #fff;
               background:#9B5859;
@@ -1634,7 +1634,7 @@ body {
               margin-bottom:15px;
 
               @media (min-width: $screen-size-pc) {
-                margin-right:30px;
+                margin-right:24px;
                 border-width:1px;
               }
 
@@ -1642,7 +1642,7 @@ body {
                 margin-right:15px;
 
                 @media (min-width: $screen-size-pc) {
-                  margin-right:30px;
+                  margin-right:24px;
                 }
               }
 
@@ -1654,10 +1654,11 @@ body {
               }
 
               @media (min-width: $screen-size-pc) {
-                width:198px;
-                height:198px;
-                font-size:22px;
+                width:206px;
+                height:206px;
+                font-size:20px;
                 padding-top:50px;
+                letter-spacing:-1px;
 
                 &:last-of-type {
                   margin-right:0;
@@ -1793,9 +1794,9 @@ body {
                     display: block;
                     background: #5680cc;
                     color: #fff;
-                    line-height: 49px;
+                    line-height: 1.4;
                     border-bottom: 1px solid #fff;
-                    padding: 0 20px;
+                    padding: 20px;
                   }
 
                   ul {
