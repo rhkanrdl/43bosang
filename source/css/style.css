@@ -2293,6 +2293,23 @@ body dl.form dd p select {
     font-size: 16px;
   }
 }
+body dl.form dd p [contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+  color: #777;
+}
+body dl.form dd p span[contenteditable=true] {
+  border: 1px solid #ddd;
+  color: #333;
+  font-size: 12px;
+  width: 300px;
+  padding: 5px;
+}
+body dl.form dd p span.textarea {
+  display: block;
+  cursor: text;
+}
+body dl.form dd p span.textarea,
 body dl.form dd p textarea {
   width: 100%;
   border: 1px solid #cccccc;

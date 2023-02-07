@@ -620,7 +620,25 @@ body {
           }
         }
         
+        [contenteditable=true]:empty:before{
+          content: attr(placeholder);
+          display: block; /* For Firefox */
+          color:#777;
+        }
+        span[contenteditable=true] {
+          border: 1px solid #ddd;
+          color : #333;
+          font-size: 12px;
+          width: 300px;
+          padding: 5px;
+        }
+
+        span.textarea {
+          display:block;
+          cursor:text;
+        }
         
+        span.textarea,
         textarea {
           width: 100%;
           border: 1px solid #cccccc;
