@@ -3124,7 +3124,7 @@ body div#content.main section.main-issue div.container div.rememmber {
     width: 614px;
     height: 350px;
     padding: 0;
-    margin: 0 20px 64px 0;
+    margin: 0 20px 64px 20px;
     background: url(../images/remember.svg) no-repeat center/100% auto;
   }
 }
