@@ -37,6 +37,14 @@ $(function(){
         $("div.layerPop").removeClass("on");
     });
 
+    $(".sign button.sign").on("click", function(){
+        $("div.signPop").addClass("on");
+    });
+    
+    $("div.signPop button.close").on("click", function(){
+        $("div.signPop").removeClass("on");
+    });
+
 
     $(window).on("resize", function(){
         $("nav#main-menu h3 a").unbind();
