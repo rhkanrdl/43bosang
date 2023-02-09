@@ -864,6 +864,22 @@ body {
 
     }
 
+    &.title4 {
+
+      &::before {
+        content:"접수정보입력";
+        font-size:16px;
+        display:block;
+        padding:20px;
+
+        @media (min-width: $screen-size-pc) {
+          font-size: 17px;
+        }
+  
+      }
+
+    }
+
     dt {
       position: relative;
       z-index: 10;
