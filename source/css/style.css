@@ -463,7 +463,7 @@ div#content.sub05 div.sub-head.fix {
 }
 @media (min-width: 1200px) {
   .pagenation a,
-.pagenation strong {
+  .pagenation strong {
     width: 32px;
     line-height: 30px;
     font-size: 16px;
@@ -501,9 +501,6 @@ s input[type=password] {
   font-family: sans-serif;
 }
 s input[type=password]::-moz-placeholder {
-  font-family: "paybooc", "Malgun Gothic", "apple sd gothic neo", sans-serif;
-}
-s input[type=password]:-ms-input-placeholder {
   font-family: "paybooc", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 s input[type=password]::placeholder {
@@ -1377,8 +1374,8 @@ div.input dl dd input[type=date] {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text],
-div.input dl dd input[type=password],
-div.input dl dd input[type=date] {
+  div.input dl dd input[type=password],
+  div.input dl dd input[type=date] {
     width: 570px;
     height: 48px;
     font-size: 16px;
@@ -1415,8 +1412,8 @@ div.input dl dd input[type=date].with-button {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].with-button,
-div.input dl dd input[type=password].with-button,
-div.input dl dd input[type=date].with-button {
+  div.input dl dd input[type=password].with-button,
+  div.input dl dd input[type=date].with-button {
     width: 428px;
   }
 }
@@ -1428,8 +1425,8 @@ div.input dl dd input[type=date].with-mail {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].with-mail,
-div.input dl dd input[type=password].with-mail,
-div.input dl dd input[type=date].with-mail {
+  div.input dl dd input[type=password].with-mail,
+  div.input dl dd input[type=date].with-mail {
     width: 266px;
   }
 }
@@ -1440,8 +1437,8 @@ div.input dl dd input[type=date].tel {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].tel,
-div.input dl dd input[type=password].tel,
-div.input dl dd input[type=date].tel {
+  div.input dl dd input[type=password].tel,
+  div.input dl dd input[type=date].tel {
     width: 176px;
   }
 }
@@ -1452,8 +1449,8 @@ div.input dl dd input[type=date].date {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].date,
-div.input dl dd input[type=password].date,
-div.input dl dd input[type=date].date {
+  div.input dl dd input[type=password].date,
+  div.input dl dd input[type=date].date {
     width: 176px;
   }
 }
@@ -1790,7 +1787,7 @@ body {
 }
 @media (max-width: 1200px) {
   html.lock,
-body.lock {
+  body.lock {
     height: 100vh;
     overflow: hidden;
   }
@@ -2491,6 +2488,17 @@ body dl.form2.title3::before {
 }
 @media (min-width: 1200px) {
   body dl.form2.title3::before {
+    font-size: 17px;
+  }
+}
+body dl.form2.title4::before {
+  content: "접수정보입력";
+  font-size: 16px;
+  display: block;
+  padding: 20px;
+}
+@media (min-width: 1200px) {
+  body dl.form2.title4::before {
     font-size: 17px;
   }
 }
@@ -5239,7 +5247,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-list ul.
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.board-list ul.list li:first-child a h4 span,
-body div#content.sub div.sub-contents div.contentsOutline section.board-list ul.list li:first-child a p span {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-list ul.list li:first-child a p span {
     display: block;
     width: 100%;
     position: absolute;
@@ -5532,7 +5540,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-list2 ul
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.board-list2 ul.list li:first-child a h4 span,
-body div#content.sub div.sub-contents div.contentsOutline section.board-list2 ul.list li:first-child a p span {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-list2 ul.list li:first-child a p span {
     display: block;
     width: 100%;
     position: absolute;
@@ -5698,12 +5706,12 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-view ul.
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.board-view ul.file,
-body div#content.sub div.sub-contents div.contentsOutline section.board-view ul.link {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-view ul.link {
     padding: 20px 0 20px 196px;
     font-size: 16px;
   }
   body div#content.sub div.sub-contents div.contentsOutline section.board-view ul.file::before,
-body div#content.sub div.sub-contents div.contentsOutline section.board-view ul.link::before {
+  body div#content.sub div.sub-contents div.contentsOutline section.board-view ul.link::before {
     content: "첨부파일";
     display: flex;
     align-items: center;
@@ -6766,16 +6774,6 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-info 
   border-color: transparent;
   color: #fff;
 }
-@-webkit-keyframes flowerdown {
-  from {
-    opacity: 0;
-    top: -20px;
-  }
-  to {
-    opacity: 1;
-    top: 200px;
-  }
-}
 @keyframes flowerdown {
   from {
     opacity: 0;
@@ -6789,10 +6787,8 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-info 
 body div#content.sub div.sub-contents div.contentsOutline section.memorial-info span {
   display: block;
   position: absolute;
-  -webkit-animation-name: flowerdown;
-          animation-name: flowerdown;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  animation-name: flowerdown;
+  animation-duration: 3s;
   opacity: 1;
   top: 200px;
 }
@@ -7007,6 +7003,8 @@ body div#content.sub div.sub-contents div.contentsOutline section.sign-list ul.l
   font-size: 16px;
   margin: 0 0 5px;
   font-weight: 400;
+  word-break: keep-all;
+  line-height: 1.6;
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.sign-list ul.list li a h4 {
@@ -7016,7 +7014,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.sign-list ul.l
     font-size: 18px;
     width: 705px;
     margin: 10px 0 0;
-    padding: 0;
+    padding: 0 40px 0 0;
   }
 }
 body div#content.sub div.sub-contents div.contentsOutline section.sign-list ul.list li a p {
