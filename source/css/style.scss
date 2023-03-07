@@ -5932,6 +5932,157 @@ body {
               }
             }
 
+            &.sign-text {
+              
+
+              h4.title {
+                font-size:20px;
+                word-break:keep-all;
+                margin:0 0 20px;
+                font-weight:600;
+
+                @media (min-width: $screen-size-pc) {
+                  font-size:22px;
+                  margin:0 0 32px;
+                }
+
+                strong {
+                  font-weight:600;
+                }
+                
+                span {
+
+                  @media (min-width: $screen-size-pc) {
+                    display:inline;
+                  }
+                }
+              }
+
+              div.text {
+                word-break:keep-all;
+                font-size:16px;
+                margin:0 0 28px;
+
+                @media (min-width: $screen-size-pc) {
+                  font-size:17px;
+                  margin:0 0 30px;
+                }
+              }
+
+              ul.info {
+                margin:0 0 20px;
+                padding:20px;
+                border:1px solid #9B9B9B;
+                background:#F6F6F6;
+                border-radius:10px;
+                list-style:none;
+                line-height:1.8;
+                word-break:keep-all;
+
+                @media (min-width: $screen-size-pc) {
+                  font-size:16px;
+                  margin:0 0 25px;
+                }
+
+                &>li {
+                  position:relative;
+                  padding:0 0 0 18px;
+                  font-size:15px;
+                  color:#555555;
+
+                  &::before {
+                    content:"○";
+                    position:absolute;
+                    left:0;
+                  }
+
+                  ul {
+                    list-style:none;
+                    padding:0;
+
+                    li {
+                      position:relative;
+                      padding:0 0 0 14px;
+                      font-size:15px;
+                      color:#222222;
+          
+                      &::before {
+                        content:"·";
+                        position:absolute;
+                        left:0;
+                      }
+
+                      span {
+                        display:block;
+                        position:relative;
+                        padding:0 0 0 14px;
+                        color:#555;
+          
+                        &::before {
+                          content:"·";
+                          position:absolute;
+                          left:0;
+                        }
+                      }
+                      
+                    }
+                  }
+                }
+              }
+
+              p.counter {
+                text-align:right;
+                margin:0 0 28px;
+                font-size:15px;
+                color:#222;
+
+                @media (min-width: $screen-size-pc) {
+                  font-size:16px;
+                  margin:0 0 30px;
+                }
+
+
+                strong {
+                  font-weight:600;
+
+                }
+
+                a {
+                  padding:0 0 0 10px;
+                  color:#5680CC;
+                }
+
+              }
+
+              div.buttons {
+                padding: 15px 0;
+                text-align: center;
+                font-size: 0;
+
+                @media (min-width: $screen-size-pc) {
+                  padding: 20px 0;
+                }
+
+                a {
+                  display: inline-block;
+                  background: #37599a;
+                  color: #fff;
+                  line-height: 42px;
+                  padding: 0 20px;
+                  font-size: 16px;
+                  font-weight: 500;
+                  border-radius: 4px;
+                  margin: 0 4px 10px;
+
+                  @media (min-width: $screen-size-pc) {
+                    font-size: 17px;
+                    padding: 0 30px;
+                  }
+                }
+              }
+
+            }
+
             &.sign-list {
               ul.list {
                 list-style: none;
