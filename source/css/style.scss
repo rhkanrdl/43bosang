@@ -6082,7 +6082,61 @@ body {
                 }
               }
 
+              div.image-download {
+                padding:10px;
+                background:#666;
+
+                @media (min-width: $screen-size-pc) {
+                  padding:30px;
+                }
+
+                strong {
+                  color:#fff;
+                  display:block;
+                  text-align:center;
+                  margin:0 0 10px;
+                  font-size:16px;
+
+                  @media (min-width: $screen-size-pc) {
+                    font-size:22px;
+                    margin:0 0 20px;
+                  }
+                }
+
+                div {
+                  display:flex;
+
+                  p {
+                    margin:0;
+                    flex-grow:1;
+                    font-size:0;
+                    margin:0 4px;
+
+                    @media (min-width: $screen-size-pc) {
+                      margin:0 10px;
+                    }
+  
+                    img {
+                      width:100%;
+                      height:auto;
+                    }
+  
+                    span {
+                      display:block;
+                      font-size:14px;
+                      background:#1c7cc2;
+                      color:#fff;
+                      text-align:center;
+                      line-height:36px;
+                    }
+                  }
+
+                }
+              }
+
             }
+
+
 
             &.sign-list {
               ul.list {

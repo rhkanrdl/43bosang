@@ -7111,6 +7111,54 @@ body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.
     padding: 0 30px;
   }
 }
+body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.image-download {
+  padding: 10px;
+  background: #666;
+}
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.image-download {
+    padding: 30px;
+  }
+}
+body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.image-download strong {
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.image-download strong {
+    font-size: 22px;
+    margin: 0 0 20px;
+  }
+}
+body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.image-download div {
+  display: flex;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.image-download div p {
+  margin: 0;
+  flex-grow: 1;
+  font-size: 0;
+  margin: 0 4px;
+}
+@media (min-width: 1200px) {
+  body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.image-download div p {
+    margin: 0 10px;
+  }
+}
+body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.image-download div p img {
+  width: 100%;
+  height: auto;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.image-download div p span {
+  display: block;
+  font-size: 14px;
+  background: #1c7cc2;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+}
 body div#content.sub div.sub-contents div.contentsOutline section.sign-list ul.list {
   list-style: none;
   margin: 0;
