@@ -2470,7 +2470,7 @@ body dl.form2.title1::before {
   }
 }
 body dl.form2.title2::before {
-  content: "청구권자 정보 입력";
+  content: "청구권자(신고인) 정보 입력";
   font-size: 16px;
   display: block;
   padding: 20px;
