@@ -2751,6 +2751,13 @@ body {
                           center / 100% auto;
                       }
                     }
+
+                    &.type09 {
+                      &::before {
+                        background: url(../images/iconSupport09.svg) no-repeat
+                          center / 100% auto;
+                      }
+                    }
                   }
 
                   ul {
