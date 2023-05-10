@@ -6883,6 +6883,74 @@ body {
     }
   }
 
+  div.mainPop {
+    position: fixed;
+    display: none;
+    z-index: 1000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+
+    &.on {
+      display: block;
+    }
+
+    div.outline {
+      position: absolute;
+      background: #fff;
+      width: 100%;
+      font-size:0;
+      left:0;
+      right:0;
+      bottom:0;
+
+
+      @media (min-width: $screen-size-pc) {
+        width: 440px;
+        left: 50%;
+        bottom:auto;
+        margin: 200px 0 0;
+        margin-left: -220px;
+      }
+
+      div.inline {
+
+        img {
+          width:100%;
+        }
+
+      }
+
+      div.tools {
+        line-height: 44px;
+        background: #282e3d;
+        border-bottom: 1px solid #303339;
+        font-size: 15px;
+        color:#fff;
+        padding:0 20px;
+
+        @media (min-width: $screen-size-pc) {
+          height: 46px;
+          font-size: 16px;
+
+          line-height: 46px;
+        }
+
+        input {
+          position:relative;
+          top:6px;
+          margin:0 6px 0 0;
+          width:20px;
+          height:20px;
+        }
+
+      }
+    }
+  }
+
+
   footer#footer {
     text-align: center;
     background: #282d33;

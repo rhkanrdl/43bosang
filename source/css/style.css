@@ -7816,6 +7816,62 @@ body div.signPop div.outline div.inline button.submit {
   border-radius: 6px;
   font-size: 18px;
 }
+body div.mainPop {
+  position: fixed;
+  display: none;
+  z-index: 1000000;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+body div.mainPop.on {
+  display: block;
+}
+body div.mainPop div.outline {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  font-size: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+@media (min-width: 1200px) {
+  body div.mainPop div.outline {
+    width: 440px;
+    left: 50%;
+    bottom: auto;
+    margin: 200px 0 0;
+    margin-left: -220px;
+  }
+}
+body div.mainPop div.outline div.inline img {
+  width: 100%;
+}
+body div.mainPop div.outline div.tools {
+  line-height: 44px;
+  background: #282e3d;
+  border-bottom: 1px solid #303339;
+  font-size: 15px;
+  color: #fff;
+  padding: 0 20px;
+}
+@media (min-width: 1200px) {
+  body div.mainPop div.outline div.tools {
+    height: 46px;
+    font-size: 16px;
+    line-height: 46px;
+  }
+}
+body div.mainPop div.outline div.tools input {
+  position: relative;
+  top: 6px;
+  margin: 0 6px 0 0;
+  width: 20px;
+  height: 20px;
+}
 body footer#footer {
   text-align: center;
   background: #282d33;
