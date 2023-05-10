@@ -1745,9 +1745,15 @@ body {
               border:2px solid #803D3E;
               border-radius:50%;
 
-              &:nth-child(n+4) {
+              &:nth-child(4),
+              &:nth-child(5) {
                 background:#755A44;
                 border-color: #654421;
+              }
+
+              &:nth-child(6) {
+                background:#445175;
+                border-color: #212b65;
               }
 
 
