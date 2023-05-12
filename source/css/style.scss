@@ -1745,17 +1745,21 @@ body {
               border:2px solid #803D3E;
               border-radius:50%;
 
-
-              &:nth-child(4),
-              &:nth-child(5) {
+              &:nth-child(n+4) {
                 background:#755A44;
                 border-color: #654421;
               }
 
-              &:nth-child(6) {
-                background:#445175;
-                border-color: #212b65;
-              }
+              // &:nth-child(4),
+              // &:nth-child(5) {
+              //   background:#755A44;
+              //   border-color: #654421;
+              // }
+
+              // &:nth-child(6) {
+              //   background:#445175;
+              //   border-color: #212b65;
+              // }
 
 
               @media (min-width: $screen-size-pc) {
@@ -6945,6 +6949,13 @@ body {
           margin:0 6px 0 0;
           width:20px;
           height:20px;
+        }
+
+        button {
+          border:none;
+          background:transparent;
+          position:absolute;
+          right:10px;
         }
 
       }
