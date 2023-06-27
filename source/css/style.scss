@@ -1874,7 +1874,11 @@ body {
 
               &.box2 {
                 background:rgba(103,78,54,.85);
-                margin-left:18px;
+  
+                @media (min-width: $screen-size-pc) {
+                  margin-left:18px;
+  
+                }
               }
   
               h4 {

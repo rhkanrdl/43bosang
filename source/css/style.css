@@ -3393,7 +3393,11 @@ body div#content.main section.main-issue div.container div.links div.box.box1 {
 }
 body div#content.main section.main-issue div.container div.links div.box.box2 {
   background: rgba(103, 78, 54, 0.85);
-  margin-left: 18px;
+}
+@media (min-width: 1200px) {
+  body div#content.main section.main-issue div.container div.links div.box.box2 {
+    margin-left: 18px;
+  }
 }
 body div#content.main section.main-issue div.container div.links div.box h4 {
   margin: 0 0 22px;
