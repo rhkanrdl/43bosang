@@ -3276,20 +3276,21 @@ body div#content.main section.main-issue div.container div.sign h4 small {
     display: block;
   }
 }
-body div#content.main section.main-issue div.container div.sign button {
+body div#content.main section.main-issue div.container div.sign a {
+  display: inline-block;
   font-size: 16px;
   color: #555555;
   background: none;
-  height: 34px;
+  line-height: 32px;
   border: 1px solid #8B8B8B;
   border-radius: 34px;
   width: 114px;
 }
 @media (min-width: 1200px) {
-  body div#content.main section.main-issue div.container div.sign button {
+  body div#content.main section.main-issue div.container div.sign a {
     font-size: 19px;
     width: 150px;
-    height: 50px;
+    line-height: 48px;
   }
 }
 body div#content.main section.main-issue div.container div.smart {
@@ -3349,20 +3350,21 @@ body div#content.main section.main-issue div.container div.smart h4::before {
     height: 45px;
   }
 }
-body div#content.main section.main-issue div.container div.smart button {
+body div#content.main section.main-issue div.container div.smart a {
+  display: inline-block;
   font-size: 16px;
   color: #555555;
   background: none;
-  height: 34px;
+  line-height: 32px;
   border: 1px solid #8B8B8B;
   border-radius: 34px;
   width: 114px;
 }
 @media (min-width: 1200px) {
-  body div#content.main section.main-issue div.container div.smart button {
+  body div#content.main section.main-issue div.container div.smart a {
     font-size: 19px;
     width: 150px;
-    height: 50px;
+    line-height: 48px;
   }
 }
 body div#content.main section.main-issue div.container div.links {
